@@ -46,6 +46,7 @@ public class AmcMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("amc", "amc"), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public AmcModElements elements;
+
 	public AmcMod() {
 		elements = new AmcModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -86,8 +87,10 @@ public class AmcMod {
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		elements.registerSounds(event);
 	}
+
 	private static class AmcModFMLBusEvents {
 		private final AmcMod parent;
+
 		AmcModFMLBusEvents(AmcMod parent) {
 			this.parent = parent;
 		}

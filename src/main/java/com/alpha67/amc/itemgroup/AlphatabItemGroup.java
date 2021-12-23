@@ -31,5 +31,6 @@ public class AlphatabItemGroup extends AmcModElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
 }

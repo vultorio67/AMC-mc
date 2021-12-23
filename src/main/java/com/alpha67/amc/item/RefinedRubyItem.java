@@ -15,6 +15,7 @@ import com.alpha67.amc.AmcModElements;
 public class RefinedRubyItem extends AmcModElements.ModElement {
 	@ObjectHolder("amc:refined_ruby")
 	public static final Item block = null;
+
 	public RefinedRubyItem(AmcModElements instance) {
 		super(instance, 11);
 	}
@@ -23,6 +24,7 @@ public class RefinedRubyItem extends AmcModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AlphatabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));

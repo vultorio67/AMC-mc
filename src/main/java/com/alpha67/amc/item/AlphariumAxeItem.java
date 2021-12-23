@@ -16,6 +16,7 @@ import com.alpha67.amc.AmcModElements;
 public class AlphariumAxeItem extends AmcModElements.ModElement {
 	@ObjectHolder("amc:alpharium_axe")
 	public static final Item block = null;
+
 	public AlphariumAxeItem(AmcModElements instance) {
 		super(instance, 6);
 	}

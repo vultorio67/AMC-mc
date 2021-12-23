@@ -40,10 +40,12 @@ import com.alpha67.amc.AmcModElements;
 @AmcModElements.ModElement.Tag
 public class AlphaBiomBiome extends AmcModElements.ModElement {
 	public static Biome biome;
+
 	public AlphaBiomBiome(AmcModElements instance) {
 		super(instance, 14);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
+
 	private static class BiomeRegisterHandler {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
@@ -80,6 +82,7 @@ public class AlphaBiomBiome extends AmcModElements.ModElement {
 			}
 		}
 	}
+
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,

@@ -16,6 +16,7 @@ import com.alpha67.amc.AmcModElements;
 public class AlphariumpickaxeItem extends AmcModElements.ModElement {
 	@ObjectHolder("amc:alphariumpickaxe")
 	public static final Item block = null;
+
 	public AlphariumpickaxeItem(AmcModElements instance) {
 		super(instance, 5);
 	}

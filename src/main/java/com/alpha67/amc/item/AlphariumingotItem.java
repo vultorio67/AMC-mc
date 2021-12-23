@@ -15,6 +15,7 @@ import com.alpha67.amc.AmcModElements;
 public class AlphariumingotItem extends AmcModElements.ModElement {
 	@ObjectHolder("amc:alphariumingot")
 	public static final Item block = null;
+
 	public AlphariumingotItem(AmcModElements instance) {
 		super(instance, 3);
 	}
@@ -23,6 +24,7 @@ public class AlphariumingotItem extends AmcModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));

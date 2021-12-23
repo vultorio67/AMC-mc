@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amc:blocks/alpharium_ore",
+    "up": "amc:blocks/alpharium_ore",
+    "north": "amc:blocks/alpharium_ore",
+    "east": "amc:blocks/alpharium_ore",
+    "south": "amc:blocks/alpharium_ore",
+    "west": "amc:blocks/alpharium_ore",
+    "particle": "amc:blocks/alpharium_ore"
+  }
+}

@@ -129,15 +129,6 @@
       "metadata": {
         "ep": true
       }
-    },
-    {
-      "name": "Test",
-      "type": "block",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "test"
     }
   ],
   "variable_elements": [],
@@ -146,7 +137,6 @@
     "en_us": {
       "block.amc.alphariumore": "Alpharium ore",
       "item.amc.alphariumingot": "Alphariumingot",
-      "block.amc.test": "Test",
       "biome.amc.alpha_biom": "Alpha Biom",
       "item.amc.alpharium_axe": "Alpharium Axe",
       "item.amc.tungsteneingot": "Tungstene ingot",
@@ -180,5 +170,5 @@
     "modElementsPackage": "com.alpha67.amc",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100351610
+  "mcreatorVersion": 202100236710
 }

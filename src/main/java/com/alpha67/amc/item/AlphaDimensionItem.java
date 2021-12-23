@@ -17,6 +17,7 @@ import com.alpha67.amc.itemgroup.AlphatabItemGroup;
 public class AlphaDimensionItem extends Item {
 	@ObjectHolder("amc:alpha_dimension")
 	public static final Item block = null;
+
 	public AlphaDimensionItem() {
 		super(new Item.Properties().group(AlphatabItemGroup.tab).maxDamage(64));
 	}
