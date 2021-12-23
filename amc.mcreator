@@ -1,0 +1,174 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Alphatab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alphatab"
+    },
+    {
+      "name": "Alphariumingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alphariumingot"
+    },
+    {
+      "name": "Alphariumore",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alphariumore"
+    },
+    {
+      "name": "Alphariumpickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alphariumpickaxe"
+    },
+    {
+      "name": "AlphariumAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alpharium_axe"
+    },
+    {
+      "name": "Tungsteneingot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsteneingot"
+    },
+    {
+      "name": "Tungsteneore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsteneore"
+    },
+    {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubyore"
+    },
+    {
+      "name": "RubyOreNether",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_nether"
+    },
+    {
+      "name": "RefinedRuby",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_ruby"
+    },
+    {
+      "name": "AlphariumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alpharium_pickaxe_recipe"
+    },
+    {
+      "name": "AlphariumAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alpharium_axe_recipe"
+    },
+    {
+      "name": "AlphaBiom",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alpha_biom"
+    },
+    {
+      "name": "AlphaDimension",
+      "type": "dimension",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alpha_dimension",
+      "metadata": {
+        "ep": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.amc.alphariumingot": "Alphariumingot",
+      "block.amc.alphariumore": "Alpharium ore",
+      "biome.amc.alpha_biom": "Alpha Biom",
+      "item.amc.alpharium_axe": "Alpharium Axe",
+      "item.amc.tungsteneingot": "Tungstene ingot",
+      "item.amc.alpha_dimension": "Alpha Dimension Portal Igniter",
+      "block.amc.tungsteneore": "Tungsteneore",
+      "item.amc.alphariumpickaxe": "Alpharium pickaxe",
+      "item.amc.refined_ruby": "Refined Ruby",
+      "itemGroup.tabalphatab": "alpha67 tab",
+      "block.amc.ruby_ore_nether": "Ruby Ore Nether",
+      "block.amc.rubyore": "Rubyore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "amc",
+    "modName": "amc",
+    "version": "1.0.0",
+    "author": "evanm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "com.alpha67.amc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
