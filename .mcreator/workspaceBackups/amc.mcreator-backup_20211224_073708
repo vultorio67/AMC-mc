@@ -138,15 +138,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "test"
-    },
-    {
-      "name": "Vent",
-      "type": "item",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "vent"
     }
   ],
   "variable_elements": [],
@@ -165,7 +156,6 @@
       "item.amc.refined_ruby": "Refined Ruby",
       "itemGroup.tabalphatab": "alpha67 tab",
       "block.amc.ruby_ore_nether": "Ruby Ore Nether",
-      "item.amc.vent": "Vent",
       "block.amc.rubyore": "Rubyore"
     }
   },
