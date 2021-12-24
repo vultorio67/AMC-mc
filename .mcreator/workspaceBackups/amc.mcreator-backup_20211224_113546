@@ -129,15 +129,142 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
+    },
+    {
+      "name": "Vent",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vent"
+    },
+    {
+      "name": "GoldenMixedRedstone",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_mixed_redstone"
+    },
+    {
+      "name": "CraftVent",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_vent"
+    },
+    {
+      "name": "CraftGoldenMixedRedston",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_golden_mixed_redston"
+    },
+    {
+      "name": "AlphariumRafiner",
+      "type": "block",
+      "sortid": 21,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alpharium_rafiner"
+    },
+    {
+      "name": "GuiAlphariumRafiner",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_alpharium_rafiner"
+    },
+    {
+      "name": "PcrocedureAlphariumrfiner",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pcrocedure_alphariumrfiner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GAlphariumRafinerBlockAddeduinbt",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g_alpharium_rafiner_block_addeduinbt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.amc.alphariumore": "Alpharium ore",
+      "block.amc.test": "Test",
       "item.amc.alphariumingot": "Alphariumingot",
+      "block.amc.alphariumore": "Alpharium ore",
       "biome.amc.alpha_biom": "Alpha Biom",
+      "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
       "item.amc.alpharium_axe": "Alpharium Axe",
       "item.amc.tungsteneingot": "Tungstene ingot",
       "item.amc.alpha_dimension": "Alpha Dimension Portal Igniter",
@@ -146,6 +273,8 @@
       "item.amc.refined_ruby": "Refined Ruby",
       "itemGroup.tabalphatab": "alpha67 tab",
       "block.amc.ruby_ore_nether": "Ruby Ore Nether",
+      "block.amc.alpharium_rafiner": "Alpharium Rafiner",
+      "item.amc.vent": "Vent",
       "block.amc.rubyore": "Rubyore"
     }
   },
@@ -170,5 +299,5 @@
     "modElementsPackage": "com.alpha67.amc",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100236710
+  "mcreatorVersion": 202100352418
 }

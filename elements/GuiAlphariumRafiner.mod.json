@@ -1,0 +1,262 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure10"
+          },
+          "name": "11.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure9"
+          },
+          "name": "10.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure8"
+          },
+          "name": "9.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure7"
+          },
+          "name": "8.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure6"
+          },
+          "name": "7.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure5"
+          },
+          "name": "6.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure4"
+          },
+          "name": "5.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure3"
+          },
+          "name": "4.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure2"
+          },
+          "name": "3.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure1"
+          },
+          "name": "2.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Lavabuketprocedure0"
+          },
+          "name": "1.png",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.LAVA_BUCKET"
+          },
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 137,
+          "y": 99
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 176,
+          "y": 56
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 176,
+          "y": 81
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 264,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre4.png",
+          "use1Xscale": false,
+          "name": "barre4.png",
+          "x": 196,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre3.png",
+          "use1Xscale": false,
+          "name": "barre3.png",
+          "x": 196,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre1.png",
+          "use1Xscale": false,
+          "name": "barre1.png",
+          "x": 196,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barre0.png",
+          "use1Xscale": false,
+          "name": "barre0.png",
+          "x": 196,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 1,
+      "sy": 1,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
