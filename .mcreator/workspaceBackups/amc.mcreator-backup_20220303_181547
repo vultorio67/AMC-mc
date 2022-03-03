@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Alphatab",
@@ -7,7 +6,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphatab"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphariumingot"
     },
     {
@@ -25,7 +22,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphariumore"
     },
     {
@@ -34,7 +30,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphariumpickaxe"
     },
     {
@@ -43,7 +38,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpharium_axe"
     },
     {
@@ -52,7 +46,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tungsteneingot"
     },
     {
@@ -61,7 +54,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tungsteneore"
     },
     {
@@ -70,7 +62,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubyore"
     },
     {
@@ -79,7 +70,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby_ore_nether"
     },
     {
@@ -88,7 +78,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "refined_ruby"
     },
     {
@@ -97,7 +86,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpharium_pickaxe_recipe"
     },
     {
@@ -106,7 +94,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpharium_axe_recipe"
     },
     {
@@ -115,7 +102,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpha_biom"
     },
     {
@@ -124,7 +110,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpha_dimension",
       "metadata": {
         "ep": true
@@ -136,7 +121,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "test"
     },
     {
@@ -145,7 +129,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "vent"
     },
     {
@@ -154,7 +137,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "golden_mixed_redstone"
     },
     {
@@ -163,7 +145,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "craft_vent"
     },
     {
@@ -172,7 +153,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "craft_golden_mixed_redston"
     },
     {
@@ -181,7 +161,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpharium_rafiner"
     },
     {
@@ -190,7 +169,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gui_alpharium_rafiner"
     },
     {
@@ -199,7 +177,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pcrocedure_alphariumrfiner",
       "metadata": {
         "dependencies": [
@@ -228,7 +205,6 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "g_alpharium_rafiner_block_addeduinbt",
       "metadata": {
         "dependencies": [
@@ -257,7 +233,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_0",
       "metadata": {
         "return_type": "logic",
@@ -287,7 +262,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_1",
       "metadata": {
         "return_type": "logic",
@@ -317,7 +291,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_2",
       "metadata": {
         "return_type": "logic",
@@ -347,8 +320,210 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavabuketprocedure4",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavabuketprocedure5",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavabuketprocedure6",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavabuketprocedure7",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavabuketprocedure8",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavabuketprocedure9",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lavabuketprocedure10",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_10",
       "metadata": {
         "return_type": "logic",
         "dependencies": [
@@ -376,9 +551,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.amc.test": "Test",
-      "item.amc.alphariumingot": "Alphariumingot",
       "block.amc.alphariumore": "Alpharium ore",
+      "item.amc.alphariumingot": "Alphariumingot",
+      "block.amc.test": "Test",
       "biome.amc.alpha_biom": "Alpha Biom",
       "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
       "item.amc.alpharium_axe": "Alpharium Axe",
@@ -396,7 +571,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "sd",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "amc",
@@ -415,5 +595,5 @@
     "modElementsPackage": "com.alpha67.amc",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100352418
+  "mcreatorVersion": 202100354000
 }

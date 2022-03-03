@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Alphatab",
@@ -7,7 +6,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphatab"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphariumingot"
     },
     {
@@ -25,7 +22,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphariumore"
     },
     {
@@ -34,7 +30,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alphariumpickaxe"
     },
     {
@@ -43,7 +38,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpharium_axe"
     },
     {
@@ -52,7 +46,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tungsteneingot"
     },
     {
@@ -61,7 +54,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tungsteneore"
     },
     {
@@ -70,7 +62,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rubyore"
     },
     {
@@ -79,7 +70,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ruby_ore_nether"
     },
     {
@@ -88,7 +78,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "refined_ruby"
     },
     {
@@ -97,7 +86,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpharium_pickaxe_recipe"
     },
     {
@@ -106,7 +94,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpharium_axe_recipe"
     },
     {
@@ -115,7 +102,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpha_biom"
     },
     {
@@ -124,7 +110,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "alpha_dimension",
       "metadata": {
         "ep": true
@@ -136,7 +121,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "test"
     },
     {
@@ -145,7 +129,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "vent"
     },
     {
@@ -154,7 +137,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "golden_mixed_redstone"
     },
     {
@@ -163,7 +145,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "craft_vent"
     },
     {
@@ -172,7 +153,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "craft_golden_mixed_redston"
     },
     {
@@ -181,8 +161,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "alpharium_rafiner"
+      "registry_name": "alpharium_rafiner",
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "GuiAlphariumRafiner",
@@ -190,8 +170,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "gui_alpharium_rafiner"
+      "registry_name": "gui_alpharium_rafiner",
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "PcrocedureAlphariumrfiner",
@@ -199,7 +179,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pcrocedure_alphariumrfiner",
       "metadata": {
         "dependencies": [
@@ -220,7 +199,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "GAlphariumRafinerBlockAddeduinbt",
@@ -228,7 +208,6 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "g_alpharium_rafiner_block_addeduinbt",
       "metadata": {
         "dependencies": [
@@ -249,7 +228,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure0",
@@ -257,7 +237,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_0",
       "metadata": {
         "return_type": "logic",
@@ -279,7 +258,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure1",
@@ -287,7 +267,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_1",
       "metadata": {
         "return_type": "logic",
@@ -309,7 +288,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure2",
@@ -317,7 +297,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_2",
       "metadata": {
         "return_type": "logic",
@@ -339,7 +318,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure3",
@@ -347,7 +327,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_3",
       "metadata": {
         "return_type": "logic",
@@ -369,7 +348,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure4",
@@ -377,7 +357,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_4",
       "metadata": {
         "return_type": "logic",
@@ -399,7 +378,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure5",
@@ -407,7 +387,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_5",
       "metadata": {
         "return_type": "logic",
@@ -429,7 +408,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure6",
@@ -437,7 +417,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_6",
       "metadata": {
         "return_type": "logic",
@@ -459,7 +438,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure7",
@@ -467,7 +447,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_7",
       "metadata": {
         "return_type": "logic",
@@ -489,7 +468,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure8",
@@ -497,7 +477,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_8",
       "metadata": {
         "return_type": "logic",
@@ -519,7 +498,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure9",
@@ -527,7 +507,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_9",
       "metadata": {
         "return_type": "logic",
@@ -549,7 +528,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure10",
@@ -557,7 +537,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lavabuketprocedure_10",
       "metadata": {
         "return_type": "logic",
@@ -579,16 +558,26 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AlphariumRafiner"
+    },
+    {
+      "name": "CraftAlphariumRafiner",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_alpharium_rafiner",
+      "path": "~/AlphariumRafiner"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.amc.test": "Test",
-      "item.amc.alphariumingot": "Alphariumingot",
       "block.amc.alphariumore": "Alpharium ore",
+      "item.amc.alphariumingot": "Alphariumingot",
+      "block.amc.test": "Test",
       "biome.amc.alpha_biom": "Alpha Biom",
       "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
       "item.amc.alpharium_axe": "Alpharium Axe",
@@ -606,7 +595,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "AlphariumRafiner",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "amc",
@@ -625,5 +619,5 @@
     "modElementsPackage": "com.alpha67.amc",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100352418
+  "mcreatorVersion": 202100354000
 }

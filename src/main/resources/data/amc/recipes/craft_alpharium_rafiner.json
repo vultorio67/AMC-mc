@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "amc:golden_mixed_redstone"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "amc:golden_mixed_redstone"
+    },
+    "4": {
+      "item": "amc:vent"
+    },
+    "5": {
+      "item": "amc:golden_mixed_redstone"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "amc:golden_mixed_redstone"
+    },
+    "8": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "amc:alpharium_rafiner",
+    "count": 1
+  }
+}

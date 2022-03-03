@@ -1,8 +1,6 @@
 {
-  "block.amc.test": "Test",
-  "item.amc.alphariumingot": "Alphariumingot",
   "block.amc.alphariumore": "Alpharium ore",
-  "biome.amc.alpha_biom": "Alpha Biom",
+  "item.amc.alphariumingot": "Alphariumingot",
   "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
   "item.amc.alpharium_axe": "Alpharium Axe",
   "item.amc.tungsteneingot": "Tungstene ingot",
@@ -10,6 +8,7 @@
   "block.amc.tungsteneore": "Tungsteneore",
   "item.amc.alphariumpickaxe": "Alpharium pickaxe",
   "item.amc.refined_ruby": "Refined Ruby",
+  "item.amc.ironed_carbone": "Ironed Carbone",
   "itemGroup.tabalphatab": "alpha67 tab",
   "block.amc.ruby_ore_nether": "Ruby Ore Nether",
   "block.amc.alpharium_rafiner": "Alpharium Rafiner",
