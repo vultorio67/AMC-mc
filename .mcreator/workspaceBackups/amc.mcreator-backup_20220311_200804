@@ -14,7 +14,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alphariumingot"
+      "registry_name": "alphariumingot",
+      "path": "~/alpharium"
     },
     {
       "name": "Alphariumore",
@@ -22,7 +23,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alphariumore"
+      "registry_name": "alphariumore",
+      "path": "~/alpharium"
     },
     {
       "name": "Alphariumpickaxe",
@@ -30,7 +32,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alphariumpickaxe"
+      "registry_name": "alphariumpickaxe",
+      "path": "~/alpharium"
     },
     {
       "name": "AlphariumAxe",
@@ -38,7 +41,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alpharium_axe"
+      "registry_name": "alpharium_axe",
+      "path": "~/alpharium"
     },
     {
       "name": "Tungsteneingot",
@@ -62,7 +66,8 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rubyore"
+      "registry_name": "rubyore",
+      "path": "~/ruby"
     },
     {
       "name": "RubyOreNether",
@@ -70,7 +75,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_ore_nether"
+      "registry_name": "ruby_ore_nether",
+      "path": "~/ruby"
     },
     {
       "name": "RefinedRuby",
@@ -78,7 +84,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "refined_ruby"
+      "registry_name": "refined_ruby",
+      "path": "~/ruby"
     },
     {
       "name": "AlphariumPickaxeRecipe",
@@ -86,7 +93,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alpharium_pickaxe_recipe"
+      "registry_name": "alpharium_pickaxe_recipe",
+      "path": "~/alpharium"
     },
     {
       "name": "AlphariumAxeRecipe",
@@ -94,15 +102,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alpharium_axe_recipe"
-    },
-    {
-      "name": "AlphaBiom",
-      "type": "biome",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "alpha_biom"
+      "registry_name": "alpharium_axe_recipe",
+      "path": "~/alpharium"
     },
     {
       "name": "AlphaDimension",
@@ -116,20 +117,13 @@
       }
     },
     {
-      "name": "Test",
-      "type": "block",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test"
-    },
-    {
       "name": "Vent",
       "type": "item",
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vent"
+      "registry_name": "vent",
+      "path": "~/alpharium"
     },
     {
       "name": "GoldenMixedRedstone",
@@ -137,7 +131,8 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "golden_mixed_redstone"
+      "registry_name": "golden_mixed_redstone",
+      "path": "~/alpharium"
     },
     {
       "name": "CraftVent",
@@ -145,7 +140,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_vent"
+      "registry_name": "craft_vent",
+      "path": "~/alpharium"
     },
     {
       "name": "CraftGoldenMixedRedston",
@@ -153,7 +149,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_golden_mixed_redston"
+      "registry_name": "craft_golden_mixed_redston",
+      "path": "~/alpharium"
     },
     {
       "name": "AlphariumRafiner",
@@ -161,7 +158,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alpharium_rafiner"
+      "registry_name": "alpharium_rafiner",
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "GuiAlphariumRafiner",
@@ -169,7 +167,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gui_alpharium_rafiner"
+      "registry_name": "gui_alpharium_rafiner",
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "PcrocedureAlphariumrfiner",
@@ -197,7 +196,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "GAlphariumRafinerBlockAddeduinbt",
@@ -225,7 +225,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure0",
@@ -254,7 +255,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure1",
@@ -283,7 +285,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure2",
@@ -312,7 +315,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure3",
@@ -341,7 +345,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure4",
@@ -370,7 +375,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure5",
@@ -399,7 +405,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure6",
@@ -428,7 +435,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure7",
@@ -457,7 +465,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure8",
@@ -486,7 +495,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure9",
@@ -515,7 +525,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
     },
     {
       "name": "Lavabuketprocedure10",
@@ -544,7 +555,35 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "CraftAlphariumRafiner",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_alpharium_rafiner",
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "IronedCarbone",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironed_carbone",
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "CraftIronedCarbon",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_ironed_carbon",
+      "path": "~/alpharium/AlphariumRafiner"
     }
   ],
   "variable_elements": [],
@@ -553,8 +592,6 @@
     "en_us": {
       "block.amc.alphariumore": "Alpharium ore",
       "item.amc.alphariumingot": "Alphariumingot",
-      "block.amc.test": "Test",
-      "biome.amc.alpha_biom": "Alpha Biom",
       "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
       "item.amc.alpharium_axe": "Alpharium Axe",
       "item.amc.tungsteneingot": "Tungstene ingot",
@@ -562,6 +599,7 @@
       "block.amc.tungsteneore": "Tungsteneore",
       "item.amc.alphariumpickaxe": "Alpharium pickaxe",
       "item.amc.refined_ruby": "Refined Ruby",
+      "item.amc.ironed_carbone": "Ironed Carbone",
       "itemGroup.tabalphatab": "alpha67 tab",
       "block.amc.ruby_ore_nether": "Ruby Ore Nether",
       "block.amc.alpharium_rafiner": "Alpharium Rafiner",
@@ -571,7 +609,21 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "ruby",
+        "children": []
+      },
+      {
+        "name": "alpharium",
+        "children": [
+          {
+            "name": "AlphariumRafiner",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "amc",

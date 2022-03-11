@@ -39,12 +39,7 @@ forge*changelog.txt
 .gradle/buildOutputCleanup/outputFiles.bin
 .gradle/7.1.1/executionHistory/executionHistory.bin
 .gradle/7.1.1/fileHashes/fileHashes.bin
-gradlew
+
 .mcreator/FullBackup202100236710.zip
 .mcreator/workspaceBackups/amc.mcreator-backup_20211223_101841
-mcreator.gradle
-gradle/wrapper/gradle-wrapper.jar
-gradle/wrapper/gradle-wrapper.properties
-build.gradle
-gradlew.bat
 src/main/resources/data/amc/dimension/alpha_dimension.json
