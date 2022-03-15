@@ -145,7 +145,7 @@ public class AlphariumRafinerBlock extends AmcModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(pos, this, 40);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 1);
 
 			GAlphariumRafinerBlockAddeduinbtProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
@@ -164,7 +164,7 @@ public class AlphariumRafinerBlock extends AmcModElements.ModElement {
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			world.getPendingBlockTicks().scheduleTick(pos, this, 40);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 1);
 		}
 
 		@Override

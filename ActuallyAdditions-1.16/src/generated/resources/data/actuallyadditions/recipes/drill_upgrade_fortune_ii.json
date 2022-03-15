@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "SRS",
+    "ISI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:glowstone"
+    },
+    "S": {
+      "item": "actuallyadditions:empowered_restonia_crystal"
+    },
+    "R": {
+      "item": "actuallyadditions:ender_casing"
+    }
+  },
+  "result": {
+    "item": "actuallyadditions:drill_upgrade_fortune_ii"
+  }
+}

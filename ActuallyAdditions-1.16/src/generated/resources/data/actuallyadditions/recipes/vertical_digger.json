@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "RCR",
+    "IDI"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "I": {
+      "item": "actuallyadditions:iron_casing"
+    },
+    "C": {
+      "item": "actuallyadditions:empowered_void_crystal"
+    },
+    "D": {
+      "tag": "actuallyadditions:drills"
+    }
+  },
+  "result": {
+    "item": "actuallyadditions:vertical_digger"
+  }
+}

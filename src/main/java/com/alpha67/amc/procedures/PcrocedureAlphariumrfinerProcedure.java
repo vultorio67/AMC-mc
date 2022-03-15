@@ -127,7 +127,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == AlphariumingotItem.block && new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == AlphariumingotItem.block && new Object() {
 			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -138,7 +138,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (2)) <= 64 || new Object() {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (3)) <= 64 || new Object() {
 			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -149,7 +149,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (2)) == 0)) {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (3)) == 0)) {
 			if (!world.isRemote()) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
@@ -196,6 +196,23 @@ public class PcrocedureAlphariumrfinerProcedure {
 				return -1;
 			}
 		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") >= 0) {
+			if (!world.isRemote()) {
+				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				TileEntity _tileEntity = world.getTileEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_tileEntity != null)
+					_tileEntity.getTileData().putDouble("timerGui", ((new Object() {
+						public double getValue(IWorld world, BlockPos pos, String tag) {
+							TileEntity tileEntity = world.getTileEntity(pos);
+							if (tileEntity != null)
+								return tileEntity.getTileData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer")) * 5 / 20));
+				if (world instanceof World)
+					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+			}
+			AmcMod.LOGGER.info("Message");
 			if (new Object() {
 				public double getValue(IWorld world, BlockPos pos, String tag) {
 					TileEntity tileEntity = world.getTileEntity(pos);
@@ -211,7 +228,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") == 0) {
+				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") == 1) {
 					{
 						TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 						if (_ent != null) {
@@ -303,11 +320,11 @@ public class PcrocedureAlphariumrfinerProcedure {
 							}
 							return _retval.get();
 						}
-					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == IronedCarboneItem.block) {
+					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == IronedCarboneItem.block) {
 						{
 							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 							if (_ent != null) {
-								final int _sltid = (int) (1);
+								final int _sltid = (int) (2);
 								final int _amount = (int) 1;
 								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 									if (capability instanceof IItemHandlerModifiable) {
@@ -349,6 +366,79 @@ public class PcrocedureAlphariumrfinerProcedure {
 					}
 				}
 			}
+		}
+		if (new Object() {
+			public double getValue(IWorld world, BlockPos pos, String tag) {
+				TileEntity tileEntity = world.getTileEntity(pos);
+				if (tileEntity != null)
+					return tileEntity.getTileData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") > 0) {
+			if (!world.isRemote()) {
+				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				TileEntity _tileEntity = world.getTileEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_tileEntity != null)
+					_tileEntity.getTileData().putDouble("fuel", ((new Object() {
+						public double getValue(IWorld world, BlockPos pos, String tag) {
+							TileEntity tileEntity = world.getTileEntity(pos);
+							if (tileEntity != null)
+								return tileEntity.getTileData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - 1));
+				if (world instanceof World)
+					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+			}
+			if (new Object() {
+				public double getValue(IWorld world, BlockPos pos, String tag) {
+					TileEntity tileEntity = world.getTileEntity(pos);
+					if (tileEntity != null)
+						return tileEntity.getTileData().getDouble(tag);
+					return -1;
+				}
+			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") >= 0) {
+				if (!world.isRemote()) {
+					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					TileEntity _tileEntity = world.getTileEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_tileEntity != null)
+						_tileEntity.getTileData().putDouble("timer", (new Object() {
+							public double getValue(IWorld world, BlockPos pos, String tag) {
+								TileEntity tileEntity = world.getTileEntity(pos);
+								if (tileEntity != null)
+									return tileEntity.getTileData().getDouble(tag);
+								return -1;
+							}
+						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer") + 1));
+					if (world instanceof World)
+						((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+				}
+			}
+		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("fuelRemaining", (((new Object() {
+					public double getValue(IWorld world, BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) / (new Object() {
+					public double getValue(IWorld world, BlockPos pos, String tag) {
+						TileEntity tileEntity = world.getTileEntity(pos);
+						if (tileEntity != null)
+							return tileEntity.getTileData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "maxFuel"))) * 100));
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 		}
 	}
 }

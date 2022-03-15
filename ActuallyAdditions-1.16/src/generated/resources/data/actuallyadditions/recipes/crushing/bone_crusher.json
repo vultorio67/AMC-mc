@@ -1,0 +1,16 @@
+{
+  "type": "actuallyadditions:crushing",
+  "ingredient": {
+    "item": "minecraft:bone"
+  },
+  "result": [
+    {
+      "item": "minecraft:bone_meal",
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:air",
+      "chance": 0.0
+    }
+  ]
+}
