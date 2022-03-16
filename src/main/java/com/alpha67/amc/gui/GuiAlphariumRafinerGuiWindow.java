@@ -6,7 +6,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
@@ -31,6 +33,16 @@ import com.alpha67.amc.procedures.Lavabuketprocedure2Procedure;
 import com.alpha67.amc.procedures.Lavabuketprocedure1Procedure;
 import com.alpha67.amc.procedures.Lavabuketprocedure10Procedure;
 import com.alpha67.amc.procedures.Lavabuketprocedure0Procedure;
+import com.alpha67.amc.procedures.A9Procedure;
+import com.alpha67.amc.procedures.A8Procedure;
+import com.alpha67.amc.procedures.A7Procedure;
+import com.alpha67.amc.procedures.A6Procedure;
+import com.alpha67.amc.procedures.A5Procedure;
+import com.alpha67.amc.procedures.A4Procedure;
+import com.alpha67.amc.procedures.A3Procedure;
+import com.alpha67.amc.procedures.A2Procedure;
+import com.alpha67.amc.procedures.A1Procedure;
+import com.alpha67.amc.procedures.A0Procedure;
 
 @OnlyIn(Dist.CLIENT)
 public class GuiAlphariumRafinerGuiWindow extends ContainerScreen<GuiAlphariumRafinerGui.GuiContainerMod> {
@@ -156,19 +168,86 @@ public class GuiAlphariumRafinerGuiWindow extends ContainerScreen<GuiAlphariumRa
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/1.png"));
 			this.blit(ms, this.guiLeft + 15, this.guiTop + 7, 0, 0, 10, 54, 10, 54);
 		}
-
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/barre4.png"));
-		this.blit(ms, this.guiLeft + 70, this.guiTop + 34, 0, 0, 64, 8, 64, 8);
-
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/barre3.png"));
-		this.blit(ms, this.guiLeft + 70, this.guiTop + 34, 0, 0, 64, 8, 64, 8);
-
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/barre1.png"));
-		this.blit(ms, this.guiLeft + 70, this.guiTop + 34, 0, 0, 64, 8, 64, 8);
-
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/barre0.png"));
-		this.blit(ms, this.guiLeft + 70, this.guiTop + 34, 0, 0, 64, 8, 64, 8);
-
+		if (A9Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_9.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A8Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_8.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A7Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_7.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A6Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_6.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A5Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_5.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A4Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_4.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A3Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_3.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A2Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_2.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A1Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_filled_1.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
+		if (A0Procedure
+				.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("amc:textures/progress_bar_empty.png"));
+			this.blit(ms, this.guiLeft + 73, this.guiTop + 35, 0, 0, 54, 10, 54, 10);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -188,6 +267,14 @@ public class GuiAlphariumRafinerGuiWindow extends ContainerScreen<GuiAlphariumRa
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		this.font.drawString(ms, "Process: " + ((int) new Object() {
+			public double getValue(BlockPos pos, String tag) {
+				TileEntity tileEntity = world.getTileEntity(pos);
+				if (tileEntity != null)
+					return tileEntity.getTileData().getDouble(tag);
+				return 0;
+			}
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "timerP")) + "%", 75, 20, -12829636);
 	}
 
 	@Override

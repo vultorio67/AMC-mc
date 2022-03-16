@@ -191,6 +191,10 @@
           "inputLimit": {
             "value": ""
           },
+          "color": {
+            "value": -13421569,
+            "falpha": 0.0
+          },
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
@@ -202,6 +206,10 @@
       {
         "type": "outputslot",
         "data": {
+          "color": {
+            "value": -26266,
+            "falpha": 0.0
+          },
           "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
@@ -213,41 +221,144 @@
       {
         "type": "image",
         "data": {
-          "image": "barre4.png",
+          "image": "progress_bar_filled_9.png",
           "use1Xscale": false,
-          "name": "barre4.png",
-          "x": 196,
-          "y": 71
+          "displayCondition": {
+            "name": "A9"
+          },
+          "name": "progress_bar_filled_9.png",
+          "x": 199,
+          "y": 72
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "barre3.png",
+          "image": "progress_bar_filled_8.png",
           "use1Xscale": false,
-          "name": "barre3.png",
-          "x": 196,
-          "y": 71
+          "displayCondition": {
+            "name": "A8"
+          },
+          "name": "progress_bar_filled_8.png",
+          "x": 199,
+          "y": 72
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "barre1.png",
+          "image": "progress_bar_filled_7.png",
           "use1Xscale": false,
-          "name": "barre1.png",
-          "x": 196,
-          "y": 71
+          "displayCondition": {
+            "name": "A7"
+          },
+          "name": "progress_bar_filled_7.png",
+          "x": 199,
+          "y": 72
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "barre0.png",
+          "image": "progress_bar_filled_6.png",
           "use1Xscale": false,
-          "name": "barre0.png",
-          "x": 196,
-          "y": 71
+          "displayCondition": {
+            "name": "A6"
+          },
+          "name": "progress_bar_filled_6.png",
+          "x": 199,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A5"
+          },
+          "name": "progress_bar_filled_5.png",
+          "x": 199,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A4"
+          },
+          "name": "progress_bar_filled_4.png",
+          "x": 199,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A3"
+          },
+          "name": "progress_bar_filled_3.png",
+          "x": 199,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A2"
+          },
+          "name": "progress_bar_filled_2.png",
+          "x": 199,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_filled_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A1"
+          },
+          "name": "progress_bar_filled_1.png",
+          "x": 199,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_bar_empty.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A0"
+          },
+          "name": "progress_bar_empty.png",
+          "x": 199,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Process: <BNBT:integer:timerP>%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Process: <BNBT:integer:timerP>%",
+          "x": 201,
+          "y": 57
         }
       }
     ],
