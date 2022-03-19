@@ -94,7 +94,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpharium_pickaxe_recipe",
-      "path": "~/alpharium"
+      "path": "~/alpharium/Craft"
     },
     {
       "name": "AlphariumAxeRecipe",
@@ -103,7 +103,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "alpharium_axe_recipe",
-      "path": "~/alpharium"
+      "path": "~/alpharium/Craft"
     },
     {
       "name": "Vent",
@@ -130,7 +130,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_vent",
-      "path": "~/alpharium"
+      "path": "~/alpharium/Craft"
     },
     {
       "name": "CraftGoldenMixedRedston",
@@ -139,7 +139,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_golden_mixed_redston",
-      "path": "~/alpharium"
+      "path": "~/alpharium/Craft"
     },
     {
       "name": "AlphariumRafiner",
@@ -554,7 +554,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_alpharium_rafiner",
-      "path": "~/alpharium/AlphariumRafiner"
+      "path": "~/alpharium/Craft"
     },
     {
       "name": "IronedCarbone",
@@ -562,8 +562,7 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ironed_carbone",
-      "path": "~/alpharium/AlphariumRafiner"
+      "registry_name": "ironed_carbone"
     },
     {
       "name": "CraftIronedCarbon",
@@ -572,7 +571,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_ironed_carbon",
-      "path": "~/alpharium/AlphariumRafiner"
+      "path": "~/alpharium/Craft"
     },
     {
       "name": "A0",
@@ -873,6 +872,68 @@
         ]
       },
       "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "AlphariumShovel",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_shovel",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "AlphariumHoe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_hoe",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "AlphariumShovelCraft",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_shovel_craft",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "AlphariumHoeCraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_hoe_craft",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "RubyNugets",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_nugets",
+      "path": "~/ruby"
     }
   ],
   "variable_elements": [],
@@ -889,9 +950,12 @@
       "item.amc.refined_ruby": "Refined Ruby",
       "item.amc.ironed_carbone": "Ironed Carbone",
       "itemGroup.tabalphatab": "alpha67 tab",
+      "item.amc.ruby_nugets": "Ruby Nugets",
       "block.amc.ruby_ore_nether": "Ruby Ore Nether",
       "block.amc.alpharium_rafiner": "Alpharium Rafiner",
+      "item.amc.alpharium_shovel": "Alpharium Shovel",
       "item.amc.vent": "Vent",
+      "item.amc.alpharium_hoe": "Alpharium Shovel",
       "block.amc.rubyore": "Rubyore"
     }
   },
@@ -907,6 +971,10 @@
         "children": [
           {
             "name": "AlphariumRafiner",
+            "children": []
+          },
+          {
+            "name": "Craft",
             "children": []
           }
         ]
