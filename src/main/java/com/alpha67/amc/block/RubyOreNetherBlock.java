@@ -114,7 +114,7 @@ public class RubyOreNetherBlock extends AmcModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 10)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 1)).range(125)
 					.square().func_242731_b(2);
 			event.getRegistry().register(feature.setRegistryName("ruby_ore_nether"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("amc:ruby_ore_nether"), configuredFeature);

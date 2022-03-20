@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      },
+      {
+        "value": "CUSTOM:Tungsteneingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TungstenBlock"
+    },
+    "name": "tungsten_block_craft",
+    "namespace": "mod"
+  }
+}

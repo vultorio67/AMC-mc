@@ -29,7 +29,7 @@ public class AlphariumpickaxeItem extends AmcModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 11f;
+				return 16f;
 			}
 
 			public float getAttackDamage() {

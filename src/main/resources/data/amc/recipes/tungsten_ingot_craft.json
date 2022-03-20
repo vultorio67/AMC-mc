@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "amc:tungsten_block"
+    }
+  },
+  "result": {
+    "item": "amc:tungsteneingot",
+    "count": 9
+  }
+}

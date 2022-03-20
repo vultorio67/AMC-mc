@@ -1,0 +1,1137 @@
+{
+  "mod_elements": [
+    {
+      "name": "Alphatab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphatab"
+    },
+    {
+      "name": "Alphariumingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphariumingot",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "Alphariumore",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphariumore",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "Alphariumpickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphariumpickaxe",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "AlphariumAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_axe",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "Tungsteneingot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsteneingot"
+    },
+    {
+      "name": "Tungsteneore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsteneore"
+    },
+    {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore",
+      "path": "~/ruby"
+    },
+    {
+      "name": "RubyOreNether",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_nether",
+      "path": "~/ruby"
+    },
+    {
+      "name": "RefinedRuby",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_ruby",
+      "path": "~/ruby"
+    },
+    {
+      "name": "AlphariumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_pickaxe_recipe",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "AlphariumAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_axe_recipe",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "Vent",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vent",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "GoldenMixedRedstone",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_mixed_redstone",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "CraftVent",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_vent",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "CraftGoldenMixedRedston",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_golden_mixed_redston",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "AlphariumRafiner",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_rafiner",
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "GuiAlphariumRafiner",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_alpharium_rafiner",
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "PcrocedureAlphariumrfiner",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcrocedure_alphariumrfiner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "GAlphariumRafinerBlockAddeduinbt",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_alpharium_rafiner_block_addeduinbt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure0",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_0",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure1",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure2",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure3",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure4",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure5",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure6",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure7",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure8",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure9",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Lavabuketprocedure10",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavabuketprocedure_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "CraftAlphariumRafiner",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_alpharium_rafiner",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "IronedCarbone",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironed_carbone"
+    },
+    {
+      "name": "CraftIronedCarbon",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_ironed_carbon",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "A0",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_0",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A1",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A2",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A3",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A4",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A5",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A6",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A7",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A8",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "A9",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/alpharium/AlphariumRafiner"
+    },
+    {
+      "name": "AlphariumShovel",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_shovel",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "AlphariumHoe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_hoe",
+      "path": "~/alpharium"
+    },
+    {
+      "name": "AlphariumShovelCraft",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_shovel_craft",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "AlphariumHoeCraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpharium_hoe_craft",
+      "path": "~/alpharium/Craft"
+    },
+    {
+      "name": "RubyNugets",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_nugets",
+      "path": "~/ruby"
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/ruby"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "path": "~/ruby"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "path": "~/ruby"
+    },
+    {
+      "name": "RubySworde",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sworde",
+      "path": "~/ruby"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "path": "~/ruby"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "path": "~/ruby"
+    },
+    {
+      "name": "Ruby",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "path": "~/ruby/craft"
+    },
+    {
+      "name": "RubyNether",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_nether",
+      "path": "~/ruby/craft"
+    },
+    {
+      "name": "MetalRubyIngot",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_ruby_ingot",
+      "path": "~/ruby"
+    },
+    {
+      "name": "FusionMachine",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_machine",
+      "path": "~/FusionMachine"
+    },
+    {
+      "name": "FusionMachineGui",
+      "type": "gui",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_machine_gui",
+      "path": "~/FusionMachine"
+    },
+    {
+      "name": "HighEnergyFuel",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_energy_fuel",
+      "path": "~/FusionMachine"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.amc.alphariumore": "Alpharium ore",
+      "item.amc.alphariumingot": "Alphariumingot",
+      "item.amc.ruby_armor_boots": "Ruby Armor Boots",
+      "item.amc.alpharium_axe": "Alpharium Axe",
+      "item.amc.high_energy_fuel": "High Energy Fuel",
+      "item.amc.tungsteneingot": "Tungstene ingot",
+      "block.amc.tungsteneore": "Tungsteneore",
+      "item.amc.refined_ruby": "Refined Ruby",
+      "itemGroup.tabalphatab": "alpha67 tab",
+      "block.amc.fusion_machine": "Fusion Machine",
+      "block.amc.ruby_ore_nether": "Ruby Ore Nether",
+      "block.amc.alpharium_rafiner": "Alpharium Rafiner",
+      "item.amc.vent": "Vent",
+      "item.amc.ruby_armor_chestplate": "Ruby Armor Body",
+      "item.amc.ruby_pickaxe": "Ruby Pickaxe",
+      "item.amc.metal_ruby_ingot": "Metal Ruby Ingot",
+      "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
+      "item.amc.ruby_hoe": "Ruby Pickaxe",
+      "item.amc.ruby_armor_helmet": "Ruby Armor Helmet",
+      "item.amc.ruby_shovel": "Ruby Pickaxe",
+      "item.amc.ruby_armor_leggings": "Ruby Armor Leggings",
+      "item.amc.alphariumpickaxe": "Alpharium pickaxe",
+      "item.amc.ironed_carbone": "Ironed Carbone",
+      "item.amc.ruby_nugets": "Ruby Nugets",
+      "item.amc.alpharium_shovel": "Alpharium Shovel",
+      "item.amc.ruby_sworde": "Ruby Pickaxe",
+      "item.amc.alpharium_hoe": "Alpharium Shovel",
+      "item.amc.ruby_axe": "Ruby Pickaxe",
+      "block.amc.rubyore": "Rubyore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "ruby",
+        "children": [
+          {
+            "name": "craft",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "alpharium",
+        "children": [
+          {
+            "name": "AlphariumRafiner",
+            "children": []
+          },
+          {
+            "name": "Craft",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "FusionMachine",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "amc",
+    "modName": "amc",
+    "version": "1.0.0",
+    "author": "evanm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "com.alpha67.amc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

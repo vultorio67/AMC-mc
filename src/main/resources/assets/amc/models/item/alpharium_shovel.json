@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "amc:items/no"
+    "layer0": "amc:items/alpharium_shovel"
   }
 }

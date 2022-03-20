@@ -115,7 +115,7 @@ public class TungsteneoreBlock extends AmcModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(20)
-					.square().func_242731_b(10);
+					.square().func_242731_b(12);
 			event.getRegistry().register(feature.setRegistryName("tungsteneore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("amc:tungsteneore"), configuredFeature);
 		}
