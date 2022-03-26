@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "alphariumpickaxe2",
+    "texture": "alpharium_pickaxe",
     "customModelName": "Normal",
     "name": "Alpharium pickaxe",
     "specialInfo": [],

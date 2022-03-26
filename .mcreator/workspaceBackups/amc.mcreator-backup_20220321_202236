@@ -1125,35 +1125,6 @@
         "dependencies": []
       },
       "path": "~/alpharium/AlphariumRafiner"
-    },
-    {
-      "name": "FusionMachinProcedure",
-      "type": "procedure",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fusion_machin_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/FusionMachine/craft"
     }
   ],
   "variable_elements": [],

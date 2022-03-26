@@ -5,7 +5,7 @@
     "texture": "alpharium_rafiner_bas",
     "textureTop": "alpharium_rafiner_haut",
     "textureLeft": "alpharium_rafiner_cote",
-    "textureFront": "alpharium_rafiner_top",
+    "textureFront": "alpharium_rafiner_top_on",
     "textureRight": "alpharium_rafiner_cote",
     "textureBack": "alpharium_rafiner_cote",
     "renderType": 10,
@@ -94,16 +94,16 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 1,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "LAVA"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleAmount": 6,
     "hasInventory": true,
     "guiBoundTo": "GuiAlphariumRafiner",
     "openGUIOnRightClick": true,

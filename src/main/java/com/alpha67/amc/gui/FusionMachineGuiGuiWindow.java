@@ -72,7 +72,7 @@ public class FusionMachineGuiGuiWindow extends ContainerScreen<FusionMachineGuiG
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "+", 39, 19, -12829636);
+		this.font.drawString(ms, "+", 40, 30, -12829636);
 	}
 
 	@Override

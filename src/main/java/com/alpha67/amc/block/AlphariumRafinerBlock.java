@@ -11,6 +11,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
@@ -47,6 +49,7 @@ import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.HorizontalBlock;
@@ -66,6 +69,7 @@ import java.util.AbstractMap;
 
 import io.netty.buffer.Unpooled;
 
+import com.alpha67.amc.procedures.ProcedureAlphariumRafinerClientProcedure;
 import com.alpha67.amc.procedures.PcrocedureAlphariumrfinerProcedure;
 import com.alpha67.amc.procedures.GAlphariumRafinerBlockAddeduinbtProcedure;
 import com.alpha67.amc.itemgroup.AlphatabItemGroup;
@@ -102,7 +106,7 @@ public class AlphariumRafinerBlock extends AmcModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(40f, 10f).setLightLevel(s -> 1));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(40f, 10f).setLightLevel(s -> 1));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("alpharium_rafiner");
 		}
@@ -165,6 +169,18 @@ public class AlphariumRafinerBlock extends AmcModElements.ModElement {
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			world.getPendingBlockTicks().scheduleTick(pos, this, 3);
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState blockstate, World world, BlockPos pos, Random random) {
+			super.animateTick(blockstate, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			ProcedureAlphariumRafinerClientProcedure.executeProcedure(Collections.EMPTY_MAP);
 		}
 
 		@Override

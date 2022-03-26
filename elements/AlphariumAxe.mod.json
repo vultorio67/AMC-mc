@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "alpharium_axe_2",
+    "texture": "alpharium_axe",
     "customModelName": "Normal",
     "name": "Alpharium Axe",
     "specialInfo": [],

@@ -73,8 +73,8 @@
             "falpha": 0.0
           },
           "name": "+",
-          "x": 165,
-          "y": 56
+          "x": 166,
+          "y": 67
         }
       },
       {
@@ -98,7 +98,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

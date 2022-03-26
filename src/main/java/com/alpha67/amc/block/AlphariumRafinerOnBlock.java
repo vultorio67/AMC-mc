@@ -11,10 +11,11 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
@@ -29,10 +30,9 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
-import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
-import net.minecraft.state.BooleanProperty;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.network.play.server.SUpdateTileEntityPacket;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.NetworkManager;
@@ -47,14 +47,12 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.ISidedInventory;
-import net.minecraft.fluid.Fluids;
-import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.IWaterLoggable;
 import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -72,20 +70,22 @@ import java.util.AbstractMap;
 
 import io.netty.buffer.Unpooled;
 
-import com.alpha67.amc.procedures.FusionMachinProcedureProcedure;
+import com.alpha67.amc.procedures.ProcedureAlphariumRafinerClientProcedure;
+import com.alpha67.amc.procedures.PcrocedureAlphariumrfinerProcedure;
+import com.alpha67.amc.procedures.GAlphariumRafinerBlockAddeduinbtProcedure;
 import com.alpha67.amc.itemgroup.AlphatabItemGroup;
-import com.alpha67.amc.gui.FusionMachineGuiGui;
+import com.alpha67.amc.gui.GuiAlphariumRafinerGui;
 import com.alpha67.amc.AmcModElements;
 
 @AmcModElements.ModElement.Tag
-public class FusionMachineBlock extends AmcModElements.ModElement {
-	@ObjectHolder("amc:fusion_machine")
+public class AlphariumRafinerOnBlock extends AmcModElements.ModElement {
+	@ObjectHolder("amc:alpharium_rafiner_on")
 	public static final Block block = null;
-	@ObjectHolder("amc:fusion_machine")
+	@ObjectHolder("amc:alpharium_rafiner_on")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
-	public FusionMachineBlock(AmcModElements instance) {
-		super(instance, 63);
+	public AlphariumRafinerOnBlock(AmcModElements instance) {
+		super(instance, 72);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -98,18 +98,18 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("fusion_machine"));
+			event.getRegistry()
+					.register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("alpharium_rafiner_on"));
 		}
 	}
 
-	public static class CustomBlock extends Block implements IWaterLoggable {
+	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
-		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(3f, 10f).setLightLevel(s -> 0));
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
-			setRegistryName("fusion_machine");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(40f, 10f).setLightLevel(s -> 15));
+			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+			setRegistryName("alpharium_rafiner_on");
 		}
 
 		@Override
@@ -119,7 +119,7 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING, WATERLOGGED);
+			builder.add(FACING);
 		}
 
 		public BlockState rotate(BlockState state, Rotation rot) {
@@ -132,22 +132,8 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite()).with(WATERLOGGED, flag);
-		}
-
-		@Override
-		public FluidState getFluidState(BlockState state) {
-			return state.get(WATERLOGGED) ? Fluids.WATER.getStillFluidState(false) : super.getFluidState(state);
-		}
-
-		@Override
-		public BlockState updatePostPlacement(BlockState state, Direction facing, BlockState facingState, IWorld world, BlockPos currentPos,
-				BlockPos facingPos) {
-			if (state.get(WATERLOGGED)) {
-				world.getPendingFluidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
-			}
-			return super.updatePostPlacement(state, facing, facingState, world, currentPos, facingPos);
+			;
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		@Override
@@ -164,7 +150,12 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(pos, this, 10);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 3);
+
+			GAlphariumRafinerBlockAddeduinbtProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override
@@ -174,11 +165,34 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			FusionMachinProcedureProcedure.executeProcedure(Stream
+			PcrocedureAlphariumrfinerProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			world.getPendingBlockTicks().scheduleTick(pos, this, 10);
+			world.getPendingBlockTicks().scheduleTick(pos, this, 3);
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState blockstate, World world, BlockPos pos, Random random) {
+			super.animateTick(blockstate, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (true)
+				for (int l = 0; l < 6; ++l) {
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
+					int i1 = random.nextInt(2) * 2 - 1;
+					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
+					world.addParticle(ParticleTypes.LAVA, d0, d1, d2, d3, d4, d5);
+				}
+
+			ProcedureAlphariumRafinerClientProcedure.executeProcedure(Collections.EMPTY_MAP);
 		}
 
 		@Override
@@ -192,12 +206,12 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Fusion Machine");
+						return new StringTextComponent("Alpharium Rafiner");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new FusionMachineGuiGui.GuiContainerMod(id, inventory,
+						return new GuiAlphariumRafinerGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -257,7 +271,7 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(5, ItemStack.EMPTY);
 
 		protected CustomTileEntity() {
 			super(tileEntityType);
@@ -311,7 +325,7 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("fusion_machine");
+			return new StringTextComponent("alpharium_rafiner_on");
 		}
 
 		@Override
@@ -321,12 +335,12 @@ public class FusionMachineBlock extends AmcModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new FusionMachineGuiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new GuiAlphariumRafinerGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Fusion Machine");
+			return new StringTextComponent("Alpharium Rafiner");
 		}
 
 		@Override

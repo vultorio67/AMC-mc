@@ -3,7 +3,7 @@
   "textures": {
     "down": "amc:blocks/alpharium_rafiner_bas",
     "up": "amc:blocks/alpharium_rafiner_haut",
-    "north": "amc:blocks/alpharium_rafiner_top",
+    "north": "amc:blocks/alpharium_rafiner_top_on",
     "east": "amc:blocks/alpharium_rafiner_cote",
     "south": "amc:blocks/alpharium_rafiner_cote",
     "west": "amc:blocks/alpharium_rafiner_cote",

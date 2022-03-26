@@ -293,14 +293,6 @@ public class PcrocedureAlphariumrfinerProcedure {
 						((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
 			}
-			System.out.println((new Object() {
-				public double getValue(IWorld world, BlockPos pos, String tag) {
-					TileEntity tileEntity = world.getTileEntity(pos);
-					if (tileEntity != null)
-						return tileEntity.getTileData().getDouble(tag);
-					return -1;
-				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timerGui")) + "a");
 			if (new Object() {
 				public double getValue(IWorld world, BlockPos pos, String tag) {
 					TileEntity tileEntity = world.getTileEntity(pos);
