@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amcmc:blocks/tungstene_ore",
+    "up": "amcmc:blocks/tungstene_ore",
+    "north": "amcmc:blocks/tungstene_ore",
+    "east": "amcmc:blocks/tungstene_ore",
+    "south": "amcmc:blocks/tungstene_ore",
+    "west": "amcmc:blocks/tungstene_ore",
+    "particle": "amcmc:blocks/tungstene_ore"
+  }
+}

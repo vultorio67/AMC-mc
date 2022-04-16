@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Alphatab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -128,7 +128,7 @@
       "name": "PcrocedureAlphariumrfiner"
     },
     "onRandomUpdateEvent": {
-      "name": "ProcedureAlphariumRafinerClient"
+      "name": "FusionMachineProcedureTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

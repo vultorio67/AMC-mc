@@ -8,7 +8,7 @@
     "name": "Alphariumingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Alphatab"
     },
     "stackSize": 64,
     "enchantability": 0,

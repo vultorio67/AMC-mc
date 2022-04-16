@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "amcmc:rubyore"
+  },
+  "result": {
+    "item": "amcmc:refined_ruby"
+  }
+}

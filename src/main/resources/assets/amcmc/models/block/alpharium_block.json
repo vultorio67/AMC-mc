@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amcmc:blocks/block_of_rainbow",
+    "up": "amcmc:blocks/block_of_rainbow",
+    "north": "amcmc:blocks/block_of_rainbow",
+    "east": "amcmc:blocks/block_of_rainbow",
+    "south": "amcmc:blocks/block_of_rainbow",
+    "west": "amcmc:blocks/block_of_rainbow",
+    "particle": "amcmc:blocks/block_of_rainbow"
+  }
+}

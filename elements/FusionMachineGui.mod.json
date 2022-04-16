@@ -91,6 +91,19 @@
           "x": 258,
           "y": 71
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Process: <BNBT:integer:timer>%",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Process: <BNBT:integer:timer>%",
+          "x": 218,
+          "y": 54
+        }
       }
     ],
     "gridSettings": {

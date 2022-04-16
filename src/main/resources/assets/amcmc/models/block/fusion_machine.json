@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amcmc:blocks/fusion_machine_hautbas",
+    "up": "amcmc:blocks/fusion_machine_hautbas",
+    "north": "amcmc:blocks/fusion_machine_front",
+    "east": "amcmc:blocks/fusion_machine_cote",
+    "south": "amcmc:blocks/fusion_machine_cote",
+    "west": "amcmc:blocks/fusion_machine_cote",
+    "particle": "amcmc:blocks/fusion_machine_hautbas"
+  }
+}

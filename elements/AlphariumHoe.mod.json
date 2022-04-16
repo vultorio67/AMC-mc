@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "no",
+    "texture": "houe_minecraft_pack_de_texture",
     "customModelName": "Normal",
     "name": "Alpharium Shovel",
     "specialInfo": [],

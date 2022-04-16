@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="amc"
+modId="amcmc"
 version="1.0.0"
-displayName="amc"
+displayName="amcmc"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="evanm, MCreator"
 
-[[dependencies.amc]]
+[[dependencies.amcmc]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"

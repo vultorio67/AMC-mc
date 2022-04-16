@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amcmc:blocks/the_ruby_block",
+    "up": "amcmc:blocks/the_ruby_block",
+    "north": "amcmc:blocks/the_ruby_block",
+    "east": "amcmc:blocks/the_ruby_block",
+    "south": "amcmc:blocks/the_ruby_block",
+    "west": "amcmc:blocks/the_ruby_block",
+    "particle": "amcmc:blocks/the_ruby_block"
+  }
+}
