@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "amc:block/fakeblockblackwool_4"
+    },
+    "facing=east": {
+      "model": "amc:block/fakeblockblackwool_4",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "amc:block/fakeblockblackwool_4",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "amc:block/fakeblockblackwool_4",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "amc:block/fakeblockblackwool_4",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "amc:block/fakeblockblackwool_4",
+      "x": 90
+    }
+  }
+}

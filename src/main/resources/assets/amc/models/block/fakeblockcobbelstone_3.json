@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amc:blocks/glass",
+    "up": "amc:blocks/cobblestone",
+    "north": "amc:blocks/cobblestone",
+    "east": "amc:blocks/glass",
+    "south": "amc:blocks/glass",
+    "west": "amc:blocks/cobblestone",
+    "particle": "amc:blocks/glass"
+  }
+}

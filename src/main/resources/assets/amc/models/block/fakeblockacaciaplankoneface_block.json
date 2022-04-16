@@ -3,8 +3,8 @@
   "textures": {
     "down": "amc:blocks/glass",
     "up": "amc:blocks/glass",
-    "north": "amc:blocks/glass",
-    "east": "amc:blocks/acacia_planks",
+    "north": "amc:blocks/acacia_planks",
+    "east": "amc:blocks/glass",
     "south": "amc:blocks/glass",
     "west": "amc:blocks/glass",
     "particle": "amc:blocks/glass"

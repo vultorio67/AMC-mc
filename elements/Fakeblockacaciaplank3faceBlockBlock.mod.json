@@ -4,13 +4,13 @@
   "definition": {
     "texture": "glass",
     "textureTop": "acacia_planks",
-    "textureLeft": "acacia_planks",
+    "textureLeft": "glass",
     "textureFront": "acacia_planks",
-    "textureRight": "glass",
+    "textureRight": "acacia_planks",
     "textureBack": "glass",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 2,
     "emissiveRendering": false,
     "displayFluidOverlay": true,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "fake block acacia plank",
+    "name": "fake block acacia plank 3 face",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "amc:block/fakeblockacacialogoneface_blocktop"
+    },
+    "facing=east": {
+      "model": "amc:block/fakeblockacacialogoneface_blocktop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "amc:block/fakeblockacacialogoneface_blocktop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "amc:block/fakeblockacacialogoneface_blocktop",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "amc:block/fakeblockacacialogoneface_blocktop",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "amc:block/fakeblockacacialogoneface_blocktop",
+      "x": 90
     }
   }
 }

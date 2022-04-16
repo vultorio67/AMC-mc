@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amc:blocks/magic_glass",
+    "up": "amc:blocks/magic_glass",
+    "north": "amc:blocks/magic_glass",
+    "east": "amc:blocks/magic_glass",
+    "south": "amc:blocks/magic_glass",
+    "west": "amc:blocks/magic_glass",
+    "particle": "amc:blocks/magic_glass"
+  }
+}

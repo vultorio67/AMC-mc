@@ -4,9 +4,9 @@
     "down": "amc:blocks/glass",
     "up": "amc:blocks/glass",
     "north": "amc:blocks/acacia_planks",
-    "east": "amc:blocks/acacia_planks",
+    "east": "amc:blocks/glass",
     "south": "amc:blocks/glass",
-    "west": "amc:blocks/glass",
+    "west": "amc:blocks/acacia_planks",
     "particle": "amc:blocks/glass"
   }
 }
