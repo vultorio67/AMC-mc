@@ -1249,7 +1249,7 @@
       "name": "Blockfaker",
       "type": "block",
       "sortid": 85,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blockfaker",
       "path": "~/block faker"
@@ -1652,7 +1652,7 @@
       "name": "Lamagicpoweder",
       "type": "item",
       "sortid": 101,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "lamagicpoweder"
     },

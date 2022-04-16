@@ -1153,207 +1153,153 @@
           }
         ]
       },
-      "path": "~/FusionMachine"
+      "path": "~/FusionMachine/craft"
     },
     {
-      "name": "FusionMachineOn",
+      "name": "Fakeblockacacialogoneface",
       "type": "block",
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fusion_machine_on",
-      "path": "~/FusionMachine"
+      "registry_name": "fakeblockacacialogoneface",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "AlphariumBlock",
-      "type": "block",
+      "name": "Fakeblock",
+      "type": "tab",
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alpharium_block",
-      "path": "~/alpharium"
+      "registry_name": "fakeblock",
+      "path": "~/block faker"
     },
     {
-      "name": "AlphariumBlockCraft",
-      "type": "recipe",
+      "name": "Fakeblockacacialog2face",
+      "type": "block",
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alpharium_block_craft",
-      "path": "~/alpharium/Craft"
+      "registry_name": "fakeblockacacialog_2face",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "AlphariumIngotCraft",
-      "type": "recipe",
+      "name": "Fakeblockacacialog3faceBlock",
+      "type": "block",
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "alpharium_ingot_craft",
-      "path": "~/alpharium/Craft"
+      "registry_name": "fakeblockacacialog_3face_block",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "FusionMachineProcedureTick",
-      "type": "procedure",
+      "name": "Fakeblockacacialog4faceBlock",
+      "type": "block",
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fusion_machine_procedure_tick",
-      "metadata": {
-        "dependencies": []
-      },
-      "path": "~/FusionMachine"
+      "registry_name": "fakeblockacacialog_4face_block",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "RubyBlock",
+      "name": "FakeblockacacialogonefaceBlocktop",
       "type": "block",
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_block",
-      "path": "~/ruby"
+      "registry_name": "fakeblockacacialogoneface_blocktop",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "RubyBlockCraft",
-      "type": "recipe",
+      "name": "FakeblockacaciaplankonefaceBlock",
+      "type": "block",
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_block_craft",
-      "path": "~/ruby/craft"
+      "registry_name": "fakeblockacaciaplankoneface_block",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "RubyIngotCraft",
-      "type": "recipe",
+      "name": "Fakeblockacaciaplank2faceBlockBlock",
+      "type": "block",
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_ingot_craft",
-      "path": "~/ruby/craft"
+      "registry_name": "fakeblockacaciaplank_2face_block_block",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "RubyNugetsCraft",
-      "type": "recipe",
+      "name": "Fakeblockacaciaplank3faceBlockBlock",
+      "type": "block",
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_nugets_craft",
-      "path": "~/ruby/craft"
+      "registry_name": "fakeblockacaciaplank_3face_block_block",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "RubyIngotCraft2",
-      "type": "recipe",
+      "name": "Fakeblockacaciaplank4faceBlockBlock",
+      "type": "block",
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_ingot_craft_2",
-      "path": "~/ruby/craft"
+      "registry_name": "fakeblockacaciaplank_4face_block_block",
+      "path": "~/block faker/fake bloc/acacia"
     },
     {
-      "name": "RubyPickaxeCraft",
-      "type": "recipe",
+      "name": "Blockfaker",
+      "type": "block",
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_pickaxe_craft",
-      "path": "~/ruby/craft"
+      "registry_name": "blockfaker",
+      "path": "~/block faker"
     },
     {
-      "name": "RubyAxeCraft",
-      "type": "recipe",
+      "name": "Guiblockfaker",
+      "type": "gui",
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_axe_craft",
-      "path": "~/ruby/craft"
+      "registry_name": "guiblockfaker",
+      "path": "~/block faker"
     },
     {
-      "name": "RubyHoeCraft",
-      "type": "recipe",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_hoe_craft",
-      "path": "~/ruby/craft"
-    },
-    {
-      "name": "RubyShovelCraft",
-      "type": "recipe",
+      "name": "Procedureencadre1",
+      "type": "procedure",
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_shovel_craft",
-      "path": "~/ruby/craft"
+      "registry_name": "procedureencadre_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
     },
     {
-      "name": "RubySwordCraft",
-      "type": "recipe",
+      "name": "Procesfakeblock",
+      "type": "procedure",
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_sword_craft",
-      "path": "~/ruby/craft"
-    },
-    {
-      "name": "RubyChestplateCraft",
-      "type": "recipe",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_chestplate_craft",
-      "path": "~/ruby/craft"
-    },
-    {
-      "name": "RubyHelmetCraft",
-      "type": "recipe",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_helmet_craft",
-      "path": "~/ruby/craft"
-    },
-    {
-      "name": "RubyLegginsCraft",
-      "type": "recipe",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_leggins_craft",
-      "path": "~/ruby/craft"
-    },
-    {
-      "name": "RubyBootCraft",
-      "type": "recipe",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_boot_craft",
-      "path": "~/ruby/craft"
-    },
-    {
-      "name": "ProtectionShard",
-      "type": "item",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "protection_shard",
-      "path": "~/Tungten"
-    },
-    {
-      "name": "ProtectionBlock",
-      "type": "block",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "protection_block",
-      "path": "~/Tungten"
-    },
-    {
-      "name": "PlayerSaveP",
-      "type": "procedure",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "player_save_p",
+      "registry_name": "procesfakeblock",
       "metadata": {
         "dependencies": [
           {
@@ -1374,80 +1320,479 @@
           }
         ]
       },
-      "path": "~/Tungten"
+      "path": "~/block faker"
+    },
+    {
+      "name": "Procedureencadre12",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureencadre_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Bouton1preser",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouton_1preser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Bouton2preser",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouton_2preser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Procedureencadre22",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureencadre_22",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Procedureencadre2",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureencadre_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Bouton3preser",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouton_3preser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Procedureencadre3",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureencadre_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Procedureencadre32",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureencadre_32",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Bouton4preser",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouton_4preser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Procedureencadre42",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureencadre_42",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Procedureencadre4",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureencadre_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Lamagicpoweder",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamagicpoweder"
+    },
+    {
+      "name": "Procedureblockfaker2",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureblockfaker_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Lavatestgui1",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavatestgui_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
+    },
+    {
+      "name": "Lavatestgui2",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavatestgui_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block faker"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.amcmc.fusion_machine_on": "Fusion Machine",
+      "item.amc.alphariumingot": "Alphariumingot",
+      "block.amc.alphariumore": "Alpharium ore",
       "item.amc.ruby_armor_boots": "Ruby Armor Boots",
-      "item.amcmc.ruby_sworde": "Ruby Pickaxe",
-      "item.amcmc.tungsteneingot": "Tungstene ingot",
+      "item.amc.alpharium_axe": "Alpharium Axe",
+      "item.amc.high_energy_fuel": "High Energy Fuel",
       "block.amc.alpharium_rafiner_on": "Alpharium Rafiner",
       "item.amc.tungsteneingot": "Tungstene ingot",
-      "item.amcmc.ruby_armor_helmet": "Ruby Armor Helmet",
+      "block.amc.fakeblockacaciaplank_2face_block_block": "fake block acacia plank",
+      "item.amc.lamagicpoweder": "La magic poweder",
+      "block.amc.tungsteneore": "Tungsteneore",
+      "block.amc.fakeblockacacialog_3face_block": "fake block acacia log",
+      "block.amc.fakeblockacaciaplank_3face_block_block": "fake block acacia plank",
       "item.amc.refined_ruby": "Refined Ruby",
       "itemGroup.tabalphatab": "alpha67 tab",
       "block.amc.fusion_machine": "Fusion Machine",
+      "block.amc.ruby_ore_nether": "Ruby Ore Nether",
       "block.amc.alpharium_rafiner": "Alpharium Rafiner",
       "item.amc.vent": "Vent",
       "item.amc.ruby_armor_chestplate": "Ruby Armor Body",
-      "item.amcmc.ruby_axe": "Ruby Pickaxe",
-      "item.amcmc.refined_ruby": "Refined Ruby",
       "item.amc.ruby_pickaxe": "Ruby Pickaxe",
-      "block.amcmc.alphariumore": "Alpharium ore",
-      "item.amcmc.vent": "Vent",
-      "item.amcmc.high_energy_fuel": "High Energy Fuel",
-      "item.amcmc.metal_ruby_ingot": "Metal Ruby Ingot",
+      "block.amc.fakeblockacaciaplankoneface_block": "fake block acacia plank",
       "item.amc.metal_ruby_ingot": "Metal Ruby Ingot",
-      "item.amcmc.ruby_pickaxe": "Ruby Pickaxe",
-      "block.amcmc.alpharium_rafiner": "Alpharium Rafiner",
-      "block.amcmc.protection_block": "Protection Block",
-      "item.amc.ruby_armor_helmet": "Ruby Armor Helmet",
-      "block.amcmc.ruby_block": "Ruby Block",
-      "item.amcmc.protection_shard": "Protection Shard",
-      "item.amc.ironed_carbone": "Ironed Carbone",
-      "item.amc.ruby_nugets": "Ruby Nugets",
-      "item.amcmc.alphariumingot": "Alphariumingot",
-      "block.amcmc.tungsteneore": "Tungsteneore",
-      "item.amc.ruby_sworde": "Ruby Pickaxe",
-      "block.amcmc.ruby_ore_nether": "Ruby Ore Nether",
-      "item.amcmc.golden_mixed_redstone": "Golden Mixed Redstone",
-      "block.amcmc.alpharium_block": "Alpharium Block",
-      "item.amc.alpharium_hoe": "Alpharium Shovel",
-      "item.amc.ruby_axe": "Ruby Pickaxe",
-      "block.amc.fusion_machine_on": "Fusion Machine",
-      "block.amc.alphariumore": "Alpharium ore",
-      "item.amc.alphariumingot": "Alphariumingot",
-      "item.amcmc.ruby_nugets": "Ruby Nugets",
-      "item.amcmc.alpharium_hoe": "Alpharium Shovel",
-      "item.amc.alpharium_axe": "Alpharium Axe",
-      "item.amc.high_energy_fuel": "High Energy Fuel",
-      "item.amcmc.ruby_armor_boots": "Ruby Armor Boots",
-      "block.amc.tungsteneore": "Tungsteneore",
-      "block.amc.ruby_ore_nether": "Ruby Ore Nether",
-      "block.amcmc.fusion_machine": "Fusion Machine",
-      "block.amcmc.alpharium_rafiner_on": "Alpharium Rafiner",
-      "block.amcmc.rubyore": "Rubyore",
-      "item.amcmc.ironed_carbone": "Ironed Carbone",
+      "block.amc.fakeblockacacialog_4face_block": "fake block acacia log",
       "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
       "block.amc.tungsten_block": "Tungsten Block",
-      "item.amcmc.ruby_hoe": "Ruby Pickaxe",
-      "block.amcmc.tungsten_block": "Tungsten Block",
       "item.amc.ruby_hoe": "Ruby Pickaxe",
-      "item.amcmc.alpharium_shovel": "Alpharium Shovel",
+      "item.amc.ruby_armor_helmet": "Ruby Armor Helmet",
       "item.amc.ruby_shovel": "Ruby Pickaxe",
-      "item.amcmc.ruby_shovel": "Ruby Pickaxe",
+      "itemGroup.tabfakeblock": "Fake block",
       "item.amc.ruby_armor_leggings": "Ruby Armor Leggings",
       "item.amc.alphariumpickaxe": "Alpharium pickaxe",
-      "item.amcmc.alpharium_axe": "Alpharium Axe",
+      "item.amc.ironed_carbone": "Ironed Carbone",
+      "item.amc.ruby_nugets": "Ruby Nugets",
+      "block.amc.fakeblockacacialogoneface_blocktop": "fake block acacia log",
+      "block.amc.fakeblockacacialog_2face": "fake block acacia log",
       "item.amc.alpharium_shovel": "Alpharium Shovel",
-      "item.amcmc.alphariumpickaxe": "Alpharium pickaxe",
-      "item.amcmc.ruby_armor_chestplate": "Ruby Armor Body",
+      "item.amc.ruby_sworde": "Ruby Pickaxe",
+      "item.amc.alpharium_hoe": "Alpharium Shovel",
+      "block.amc.fakeblockacaciaplank_4face_block_block": "fake block acacia plank",
+      "item.amc.ruby_axe": "Ruby Pickaxe",
+      "block.amc.blockfaker": "Block faker",
       "block.amc.rubyore": "Rubyore",
-      "item.amcmc.ruby_armor_leggings": "Ruby Armor Leggings"
+      "block.amc.fakeblockacacialogoneface": "fake block acacia log"
     }
   },
   "foldersRoot": {
@@ -1497,12 +1842,26 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "block faker",
+        "children": [
+          {
+            "name": "fake bloc",
+            "children": [
+              {
+                "name": "acacia",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
-    "modid": "amcmc",
-    "modName": "amcmc",
+    "modid": "amc",
+    "modName": "amc",
     "version": "1.0.0",
     "author": "evanm, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -1515,7 +1874,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "com.alpha67.amcmc",
+    "modElementsPackage": "com.alpha67.amc",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202100354000
