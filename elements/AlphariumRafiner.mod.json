@@ -128,7 +128,7 @@
       "name": "PcrocedureAlphariumrfiner"
     },
     "onRandomUpdateEvent": {
-      "name": "FusionMachineProcedureTick"
+      "name": "ProcedureAlphariumRafinerClient"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

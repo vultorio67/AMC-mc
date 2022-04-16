@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amc:blocks/alpharium_rafiner_bas",
+    "up": "amc:blocks/alpharium_rafiner_haut",
+    "north": "amc:blocks/alpharium_rafiner_top",
+    "east": "amc:blocks/alpharium_rafiner_cote",
+    "south": "amc:blocks/alpharium_rafiner_cote",
+    "west": "amc:blocks/alpharium_rafiner_cote",
+    "particle": "amc:blocks/alpharium_rafiner_bas"
+  }
+}

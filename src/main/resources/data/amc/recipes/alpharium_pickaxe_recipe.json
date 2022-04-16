@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "amc:alphariumingot"
+    },
+    "1": {
+      "item": "amc:alphariumingot"
+    },
+    "2": {
+      "item": "amc:alphariumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "amc:alphariumpickaxe",
+    "count": 1
+  }
+}

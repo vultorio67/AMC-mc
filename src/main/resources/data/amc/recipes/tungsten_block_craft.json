@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "amc:tungsteneingot"
+    },
+    "1": {
+      "item": "amc:tungsteneingot"
+    },
+    "2": {
+      "item": "amc:tungsteneingot"
+    },
+    "3": {
+      "item": "amc:tungsteneingot"
+    },
+    "4": {
+      "item": "amc:tungsteneingot"
+    },
+    "5": {
+      "item": "amc:tungsteneingot"
+    },
+    "6": {
+      "item": "amc:tungsteneingot"
+    },
+    "7": {
+      "item": "amc:tungsteneingot"
+    },
+    "8": {
+      "item": "amc:tungsteneingot"
+    }
+  },
+  "result": {
+    "item": "amc:tungsten_block",
+    "count": 1
+  }
+}
