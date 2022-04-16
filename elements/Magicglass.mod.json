@@ -12,13 +12,13 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
-    "displayFluidOverlay": true,
+    "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": true,
+    "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
@@ -94,7 +94,7 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 1,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
