@@ -1,0 +1,11 @@
+{
+  "parent": "amc:custom/second_parti_solar_panel_tier_1",
+  "textures": {
+    "all": "amc:blocks/basic_item.solar_module_0",
+    "particle": "amc:blocks/basic_item.solar_module_0",
+    "1": "amc:blocks/panel_light_linear",
+    "2": "amc:blocks/panel_light_off",
+    "missing": "amc:blocks/panel_light_off",
+    "8": "amc:blocks/basic_item.solar_module_0"
+  }
+}

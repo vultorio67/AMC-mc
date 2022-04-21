@@ -2249,6 +2249,82 @@
       "locked_code": false,
       "registry_name": "basicwireflate_3",
       "path": "~/galactique /machine/wire/basicwire"
+    },
+    {
+      "name": "SolarpanelTier1",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarpanel_tier_1",
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "SolarpanelTier1part2",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarpanel_tier_1part_2",
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "ProcesssolarpanelTier1place",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processsolarpanel_tier_1place",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "ProcesssolarpasnelTier1break",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processsolarpasnel_tier_1break",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1"
     }
   ],
   "variable_elements": [],
@@ -2266,14 +2342,15 @@
       "item.amc.vent": "Vent",
       "item.amc.ruby_armor_chestplate": "Ruby Armor Body",
       "item.amc.ruby_pickaxe": "Ruby Pickaxe",
+      "block.amc.solarpanel_tier_1": "Solar Panel Tier 1",
       "item.amc.metal_ruby_ingot": "Metal Ruby Ingot",
       "block.amc.fakeblockblackconcret_4": "fake block blackconcret 2 face style 2",
       "block.amc.fakeblockblackconcret_2": "fake block blackconcret 2 face",
       "item.amc.ruby_armor_helmet": "Ruby Armor Helmet",
       "block.amc.blockfakerbasalt_1": "fake block basalt 1 face",
       "block.amc.fakeblockblackconcret_3": "fake block blackconcret 3 face",
-      "itemGroup.tabfakeblock": "Fake block",
       "block.amc.fakeblockblackconcret_1": "fake block blackconcret 1 face",
+      "itemGroup.tabfakeblock": "Fake block",
       "item.amc.ruby_nugets": "Ruby Nugets",
       "block.amc.fakeblockacacialogoneface_blocktop": "fake block acacia log",
       "block.amc.blockfakerbasalt_2": "fake block basalt 2 face",
@@ -2292,8 +2369,8 @@
       "block.amc.fakeblockblackstone_4": "fake block blackstone 2face style 2",
       "block.amc.fakeblockblackstone_3": "fake block blackstone 3 face",
       "block.amc.fakeblockblackstone_2": "fake block blackstone 2 face",
-      "block.amc.fakeblockblackstone_1": "fake block blackstone 1 face",
       "block.amc.fakeblockacaciaplankoneface_block": "fake block acacia plank 1 face",
+      "block.amc.fakeblockblackstone_1": "fake block blackstone 1 face",
       "block.amc.fakeblockandesite_1": "fake block barel 1 face",
       "block.amc.fakeblocbirchlog_4": "fake block buche de boulot 2 face Style 2",
       "block.amc.fakeblocbirchlog_3": "fake block buche de boulot 3 face",
@@ -2333,6 +2410,7 @@
       "block.amc.basic_wire": "Basic Wire",
       "item.amc.alpharium_axe": "Alpharium Axe",
       "item.amc.high_energy_fuel": "High Energy Fuel",
+      "block.amc.solarpanel_tier_1part_2": "Solarpanel Tier 1part 2",
       "block.amc.fakeblockacacialog_3face_block": "fake block acacia log 3 face",
       "block.amc.fakeblockacaciaplank_3face_block_block": "fake block acacia plank 3 face",
       "block.amc.fakeblockdirt_1": "fake block dirt 1 face",
@@ -2478,6 +2556,10 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "solar panel Tier 1",
+            "children": []
           }
         ]
       }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "amc:block/solarpanel_tier_1part_2"
+    },
+    "facing=east": {
+      "model": "amc:block/solarpanel_tier_1part_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "amc:block/solarpanel_tier_1part_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "amc:block/solarpanel_tier_1part_2",
+      "y": 270
+    }
+  }
+}

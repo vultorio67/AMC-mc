@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "panel_light_linear",
+        "2": "panel_light_off",
+        "missing": "panel_light_off",
+        "8": "basic_item.solar_module_0"
+      },
+      "name": "default"
+    }
+  }
+}
