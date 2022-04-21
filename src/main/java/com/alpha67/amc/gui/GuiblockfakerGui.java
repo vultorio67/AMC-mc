@@ -27,6 +27,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
+import net.minecraft.block.Blocks;
 
 import java.util.stream.Stream;
 import java.util.function.Supplier;
@@ -39,7 +40,6 @@ import com.alpha67.amc.procedures.Bouton3preserProcedure;
 import com.alpha67.amc.procedures.Bouton2preserProcedure;
 import com.alpha67.amc.procedures.Bouton1preserProcedure;
 import com.alpha67.amc.item.LamagicpowederItem;
-import com.alpha67.amc.block.MagicglassBlock;
 import com.alpha67.amc.AmcModElements;
 import com.alpha67.amc.AmcMod;
 
@@ -129,7 +129,7 @@ public class GuiblockfakerGui extends AmcModElements.ModElement {
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 69, 42) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (MagicglassBlock.block.asItem() == stack.getItem());
+					return (Blocks.GLASS.asItem() == stack.getItem());
 				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 69, 71) {

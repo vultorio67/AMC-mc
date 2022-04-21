@@ -28,7 +28,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Magicglass"
+            "value": "Blocks.GLASS"
           },
           "id": 0,
           "disableStackInteraction": false,

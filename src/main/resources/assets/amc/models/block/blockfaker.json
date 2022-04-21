@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "amc:blocks/alpharium_rafiner_haut",
-    "up": "amc:blocks/alpharium_rafiner_haut",
-    "north": "amc:blocks/alpharium_rafiner_bas",
-    "east": "amc:blocks/alpharium_rafiner_cote",
-    "south": "amc:blocks/alpharium_rafiner_bas",
-    "west": "amc:blocks/alpharium_rafiner_bas",
-    "particle": "amc:blocks/alpharium_rafiner_haut"
+    "down": "amc:blocks/machine_item_input",
+    "up": "amc:blocks/machine_blank",
+    "north": "amc:blocks/machine",
+    "east": "amc:blocks/machine",
+    "south": "amc:blocks/machine",
+    "west": "amc:blocks/machine",
+    "particle": "amc:blocks/machine_item_input"
   }
 }
