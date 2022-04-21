@@ -1,0 +1,32 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Basicwire1"
+      },
+      {
+        "value": "CUSTOM:Basicwire5"
+      },
+      {
+        "value": "CUSTOM:BasicWire"
+      },
+      {
+        "value": "CUSTOM:Basicwireflate"
+      },
+      {
+        "value": "CUSTOM:Basicwireflate2"
+      },
+      {
+        "value": "CUSTOM:Basicwireflate3"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "basicwiretag",
+    "namespace": "forge"
+  }
+}

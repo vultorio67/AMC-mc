@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "amc:basic_wire",
+    "amc:basicwireflate",
+    "amc:basicwireflate_3",
+    "amc:basicwireflate_2",
+    "amc:basicwire_5",
+    "amc:basicwire_1"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "amc:custom/basic_wire_flat2",
+  "textures": {
+    "all": "amc:blocks/aluminum_wire",
+    "particle": "amc:blocks/aluminum_wire",
+    "1": "amc:blocks/aluminum_wire"
+  }
+}
