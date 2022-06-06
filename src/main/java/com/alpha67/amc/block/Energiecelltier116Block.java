@@ -48,7 +48,6 @@ import java.util.stream.IntStream;
 import java.util.List;
 import java.util.Collections;
 
-import com.alpha67.amc.itemgroup.AlphatabItemGroup;
 import com.alpha67.amc.AmcModElements;
 
 @AmcModElements.ModElement.Tag
@@ -66,7 +65,7 @@ public class Energiecelltier116Block extends AmcModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AlphatabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	private static class TileEntityRegisterHandler {

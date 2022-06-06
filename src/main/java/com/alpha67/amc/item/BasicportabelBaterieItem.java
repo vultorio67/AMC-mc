@@ -7,7 +7,6 @@ import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
@@ -18,6 +17,7 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import com.alpha67.amc.procedures.BasicportabelBaterieQuandLobjetEstFabriquefonduProcedure;
+import com.alpha67.amc.itemgroup.AlphatabItemGroup;
 import com.alpha67.amc.AmcModElements;
 
 @AmcModElements.ModElement.Tag
@@ -36,7 +36,7 @@ public class BasicportabelBaterieItem extends AmcModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxDamage(5000).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(AlphatabItemGroup.tab).maxDamage(5000).rarity(Rarity.COMMON));
 			setRegistryName("basicportabel_baterie");
 		}
 

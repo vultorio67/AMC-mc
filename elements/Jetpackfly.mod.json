@@ -1,0 +1,15 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Jetpack fly",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "JetpackflyToucheEnfoncee"
+    },
+    "onKeyReleased": {
+      "name": "JetpackflyToucheRelachee"
+    }
+  }
+}

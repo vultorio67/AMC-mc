@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "amc:basicportabel_baterie"
+    "amc:basicportabel_baterie",
+    "amc:simplejetpack_chestplate"
   ]
 }
