@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "amc:clefamollette"
+  },
+  "result": {
+    "item": "amc:clefamimolette"
+  }
+}

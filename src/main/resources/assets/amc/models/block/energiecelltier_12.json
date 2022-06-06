@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amc:blocks/machine",
+    "up": "amc:blocks/machine",
+    "north": "amc:blocks/energy_storage_module_1",
+    "east": "amc:blocks/machine_input",
+    "south": "amc:blocks/machine",
+    "west": "amc:blocks/machine_output",
+    "particle": "amc:blocks/machine"
+  }
+}

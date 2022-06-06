@@ -1,8 +1,0 @@
-{
-  "parent": "amc:custom/testblockwire",
-  "textures": {
-    "all": "amc:blocks/aluminum_wire",
-    "particle": "amc:blocks/aluminum_wire",
-    "0": "amc:blocks/aluminum_wire"
-  }
-}

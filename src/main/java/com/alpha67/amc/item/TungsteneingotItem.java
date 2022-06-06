@@ -3,6 +3,7 @@ package com.alpha67.amc.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -29,6 +30,11 @@ public class TungsteneingotItem extends AmcModElements.ModElement {
 		public ItemCustom() {
 			super(new Item.Properties().group(AlphatabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("tungsteneingot");
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.EAT;
 		}
 
 		@Override

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "amc:solarpanel_tier_1",
+    "amc:coalgenerator"
+  ]
+}

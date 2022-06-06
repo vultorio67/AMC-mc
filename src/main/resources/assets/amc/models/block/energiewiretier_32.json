@@ -1,0 +1,8 @@
+{
+  "parent": "amc:custom/wiretier3model2",
+  "textures": {
+    "all": "amc:blocks/aluminum_wire1",
+    "particle": "amc:blocks/aluminum_wire1",
+    "0": "amc:blocks/aluminum_wire1"
+  }
+}

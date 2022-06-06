@@ -97,9 +97,9 @@ public class Procedureblockfaker2Procedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		if ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.LAVA) {
+		if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.LAVA) {
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -118,7 +118,7 @@ public class Procedureblockfaker2Procedure {
 					}
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (0)) >= 1 && new Object() {
+			}.getAmount(world, new BlockPos(x, y, z), (int) (0)) >= 1 && new Object() {
 				public int getAmount(IWorld world, BlockPos pos, int sltid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					TileEntity _ent = world.getTileEntity(pos);
@@ -129,7 +129,7 @@ public class Procedureblockfaker2Procedure {
 					}
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (2)) == 1 && new Object() {
+			}.getAmount(world, new BlockPos(x, y, z), (int) (2)) == 1 && new Object() {
 				public int getAmount(IWorld world, BlockPos pos, int sltid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					TileEntity _ent = world.getTileEntity(pos);
@@ -140,7 +140,7 @@ public class Procedureblockfaker2Procedure {
 					}
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (3)) == 0 && new Object() {
+			}.getAmount(world, new BlockPos(x, y, z), (int) (3)) == 0 && new Object() {
 				public int getAmount(IWorld world, BlockPos pos, int sltid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					TileEntity _ent = world.getTileEntity(pos);
@@ -151,9 +151,9 @@ public class Procedureblockfaker2Procedure {
 					}
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (1)) >= 1) {
+			}.getAmount(world, new BlockPos(x, y, z), (int) (1)) >= 1) {
 				{
-					TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+					TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
 						final int _sltid = (int) (0);
 						final int _amount = (int) 1;
@@ -167,7 +167,7 @@ public class Procedureblockfaker2Procedure {
 					}
 				}
 				{
-					TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+					TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
 						final int _sltid = (int) (2);
 						final int _amount = (int) 1;
@@ -194,7 +194,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.ACACIA_LOG.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.ACACIA_LOG.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -202,9 +202,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(FakeblockacacialogonefaceBlock.block);
@@ -223,9 +223,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockacacialog2faceBlock.block);
@@ -244,9 +244,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockacacialog3faceBlockBlock.block);
@@ -265,9 +265,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockacacialog4faceBlockBlock.block);
@@ -292,7 +292,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.ACACIA_PLANKS.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.ACACIA_PLANKS.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -300,9 +300,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(FakeblockacaciaplankonefaceBlockBlock.block);
@@ -321,9 +321,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockacaciaplank2faceBlockBlockBlock.block);
@@ -342,9 +342,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockacaciaplank3faceBlockBlockBlock.block);
@@ -363,9 +363,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockacaciaplank4faceBlockBlockBlock.block);
@@ -390,7 +390,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.ANDESITE.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.ANDESITE.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -398,9 +398,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesiteface1Block.block);
@@ -419,9 +419,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesiteface2Block.block);
@@ -440,9 +440,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesiteface3Block.block);
@@ -461,9 +461,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesiteface4Block.block);
@@ -488,7 +488,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BARREL.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BARREL.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -496,9 +496,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesite1Block.block);
@@ -517,9 +517,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesite2Block.block);
@@ -538,9 +538,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesite3Block.block);
@@ -559,9 +559,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockandesite4Block.block);
@@ -586,7 +586,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BASALT.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BASALT.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -594,9 +594,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Blockfakerbasalt1Block.block);
@@ -615,9 +615,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Blockfakerbasalt2Block.block);
@@ -636,9 +636,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Blockfakerbasalt3Block.block);
@@ -657,9 +657,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Blockfakerbasalt4Block.block);
@@ -684,7 +684,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BIRCH_LOG.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BIRCH_LOG.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -692,9 +692,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchlog1Block.block);
@@ -713,9 +713,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchlog2Block.block);
@@ -734,9 +734,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchlog3Block.block);
@@ -755,9 +755,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchlog4Block.block);
@@ -782,7 +782,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BIRCH_PLANKS.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BIRCH_PLANKS.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -790,9 +790,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchplank1Block.block);
@@ -811,9 +811,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchplank2Block.block);
@@ -832,9 +832,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchplank3Block.block);
@@ -853,9 +853,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblocbirchplank4Block.block);
@@ -880,7 +880,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BLACKSTONE.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BLACKSTONE.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -888,9 +888,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackstone1Block.block);
@@ -909,9 +909,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackstone2Block.block);
@@ -930,9 +930,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackstone3Block.block);
@@ -951,9 +951,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackstone4Block.block);
@@ -978,7 +978,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BLACK_CONCRETE.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BLACK_CONCRETE.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -986,9 +986,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackconcret1Block.block);
@@ -1007,9 +1007,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackconcret2Block.block);
@@ -1028,9 +1028,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackconcret3Block.block);
@@ -1049,9 +1049,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackconcret4Block.block);
@@ -1076,7 +1076,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BLACK_WOOL.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BLACK_WOOL.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -1084,9 +1084,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackwool1Block.block);
@@ -1105,9 +1105,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackwool2Block.block);
@@ -1126,9 +1126,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackwool3Block.block);
@@ -1147,9 +1147,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockblackwool4Block.block);
@@ -1174,7 +1174,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.BLUE_WOOL.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.BLUE_WOOL.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -1182,9 +1182,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockbluewool1Block.block);
@@ -1203,9 +1203,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockbluewool2Block.block);
@@ -1224,9 +1224,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockbluewool3Block.block);
@@ -1245,9 +1245,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockbluewool4Block.block);
@@ -1272,7 +1272,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.COBBLESTONE.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.COBBLESTONE.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -1280,9 +1280,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockcobbelstone1Block.block);
@@ -1301,9 +1301,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockcobbelstone2Block.block);
@@ -1322,9 +1322,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockcobbelstone3Block.block);
@@ -1343,9 +1343,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockcobbelstone4Block.block);
@@ -1370,7 +1370,7 @@ public class Procedureblockfaker2Procedure {
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Blocks.DIRT.asItem()) {
+				}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == Blocks.DIRT.asItem()) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -1378,9 +1378,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockdirt1Block.block);
@@ -1399,9 +1399,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 2) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 2) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockdirt2Block.block);
@@ -1420,9 +1420,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 3) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 3) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockdirt3Block.block);
@@ -1441,9 +1441,9 @@ public class Procedureblockfaker2Procedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 4) {
+					}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 4) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(Fakeblockdirt4Block.block);
@@ -1460,7 +1460,7 @@ public class Procedureblockfaker2Procedure {
 			}
 		} else {
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)

@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -28,7 +28,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "Blocks.GLASS"
+            "value": "CUSTOM:Magicblock"
           },
           "id": 0,
           "disableStackInteraction": false,

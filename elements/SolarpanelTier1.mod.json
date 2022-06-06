@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "block",
   "definition": {
     "texture": "machine",
@@ -7,7 +7,7 @@
     "textureLeft": "machine",
     "textureFront": "solar_basic_1",
     "textureRight": "machine",
-    "textureBack": "machine",
+    "textureBack": "machine_output",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -33,7 +33,9 @@
       }
     ],
     "name": "Solar Panel Tier 1",
-    "specialInfo": [],
+    "specialInfo": [
+      "can generate 20Fe/Tick"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -82,16 +84,16 @@
     "breakSound": {
       "value": ""
     },
-    "stepSound": {
-      "value": ""
-    },
-    "placeSound": {
+    "fallSound": {
       "value": ""
     },
     "hitSound": {
       "value": ""
     },
-    "fallSound": {
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
       "value": ""
     },
     "luminance": 0,
@@ -107,7 +109,7 @@
     "hasInventory": true,
     "guiBoundTo": "GuisolarpanelTier1",
     "openGUIOnRightClick": true,
-    "inventorySize": 9,
+    "inventorySize": 2,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -115,12 +117,15 @@
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
     "energyInitial": 0,
-    "energyCapacity": 20000,
-    "energyMaxReceive": 0,
-    "energyMaxExtract": 10000,
+    "energyCapacity": 5000,
+    "energyMaxReceive": 100,
+    "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "Processprincipalesolarpaneltier1"
+    },
     "onDestroyedByPlayer": {
       "name": "ProcesssolarpasnelTier1break"
     },
@@ -134,6 +139,7 @@
         "value": "Blocks.STONE"
       }
     ],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

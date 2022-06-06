@@ -1,8 +1,10 @@
 package com.alpha67.amc.procedures;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.state.EnumProperty;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.block.BlockState;
@@ -39,12 +41,12 @@ public class ProcesssolarpanelTier1placeProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), SolarpanelTier1part2Block.block.getDefaultState(), 3);
+		world.setBlockState(new BlockPos(x, y + 1, z), SolarpanelTier1part2Block.block.getDefaultState(), 3);
 		try {
-			BlockState _bs = world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z));
+			BlockState _bs = world.getBlockState(new BlockPos(x, y + 1, z));
 			DirectionProperty _property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
 			if (_property != null) {
-				world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), _bs.with(_property, (new Object() {
+				world.setBlockState(new BlockPos(x, y + 1, z), _bs.with(_property, (new Object() {
 					public Direction getDirection(BlockPos pos) {
 						try {
 							BlockState _bs = world.getBlockState(pos);
@@ -58,9 +60,9 @@ public class ProcesssolarpanelTier1placeProcedure {
 							return Direction.NORTH;
 						}
 					}
-				}.getDirection(new BlockPos((int) x, (int) y, (int) z)))), 3);
+				}.getDirection(new BlockPos(x, y, z)))), 3);
 			} else {
-				world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z),
+				world.setBlockState(new BlockPos(x, y + 1, z),
 						_bs.with((EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis"), (new Object() {
 							public Direction getDirection(BlockPos pos) {
 								try {
@@ -75,9 +77,54 @@ public class ProcesssolarpanelTier1placeProcedure {
 									return Direction.NORTH;
 								}
 							}
-						}.getDirection(new BlockPos((int) x, (int) y, (int) z))).getAxis()), 3);
+						}.getDirection(new BlockPos(x, y, z))).getAxis()), 3);
 			}
 		} catch (Exception e) {
+		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos(x, y, z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("energie", 0);
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos(x, y, z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("energieproduite", 0);
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos(x, y, z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("pourcentage rendement", 0.25);
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos(x, y, z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("pourcentage rendement2", 1);
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
+		}
+		if (!world.isRemote()) {
+			BlockPos _bp = new BlockPos(x, y, z);
+			TileEntity _tileEntity = world.getTileEntity(_bp);
+			BlockState _bs = world.getBlockState(_bp);
+			if (_tileEntity != null)
+				_tileEntity.getTileData().putDouble("visibiliterbouton", 2);
+			if (world instanceof World)
+				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 		}
 	}
 }

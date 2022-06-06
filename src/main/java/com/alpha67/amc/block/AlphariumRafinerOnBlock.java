@@ -192,7 +192,7 @@ public class AlphariumRafinerOnBlock extends AmcModElements.ModElement {
 					world.addParticle(ParticleTypes.LAVA, d0, d1, d2, d3, d4, d5);
 				}
 
-			ProcedureAlphariumRafinerClientProcedure.executeProcedure(Collections.EMPTY_MAP);
+			ProcedureAlphariumRafinerClientProcedure.executeProcedure(Collections.emptyMap());
 		}
 
 		@Override

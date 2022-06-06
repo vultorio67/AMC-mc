@@ -180,7 +180,7 @@ public class AlphariumRafinerBlock extends AmcModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			ProcedureAlphariumRafinerClientProcedure.executeProcedure(Collections.EMPTY_MAP);
+			ProcedureAlphariumRafinerClientProcedure.executeProcedure(Collections.emptyMap());
 		}
 
 		@Override

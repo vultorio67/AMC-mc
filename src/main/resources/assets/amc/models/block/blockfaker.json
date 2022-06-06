@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "down": "amc:blocks/machine_item_input",
-    "up": "amc:blocks/machine_blank",
+    "up": "amc:blocks/machine_painter",
     "north": "amc:blocks/machine",
     "east": "amc:blocks/machine",
     "south": "amc:blocks/machine",

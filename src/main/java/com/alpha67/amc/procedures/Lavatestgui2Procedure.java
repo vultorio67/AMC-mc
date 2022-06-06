@@ -42,7 +42,7 @@ public class Lavatestgui2Procedure {
 					return tileEntity.getTileData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "lava")) == true) {
+		}.getValue(world, new BlockPos(x, y, z), "lava")) == true) {
 			return false;
 		}
 		return true;
