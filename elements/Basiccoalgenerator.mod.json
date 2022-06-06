@@ -1,0 +1,325 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 179,
+    "height": 149,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": -8,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -3355393,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 204,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Basic coal generator",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Basic coal generator",
+          "x": 160,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "noiretblanc.png",
+          "use1Xscale": false,
+          "name": "noiretblanc.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unamed11e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui12coalgenerator"
+          },
+          "name": "unamed11e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed10e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui11coalgenerator"
+          },
+          "name": "unnamed10e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed9e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui10coalgenerator"
+          },
+          "name": "unnamed9e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed8e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui9coalgenerator"
+          },
+          "name": "unnamed8e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed7e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui8coalgenerator"
+          },
+          "name": "unnamed7e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed6e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui7coalgenerator"
+          },
+          "name": "unnamed6e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed5e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui6coalgenerator"
+          },
+          "name": "unnamed5e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed4e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui5coalgenerator"
+          },
+          "name": "unnamed4e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed3e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui4coalgenerator"
+          },
+          "name": "unnamed3e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed2e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui3coalgenerator"
+          },
+          "name": "unnamed2e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamed1e.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui2coalgenerator"
+          },
+          "name": "unnamed1e.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "unnamede.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Processgui1coalgenerator"
+          },
+          "name": "unnamede.png",
+          "x": 205,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Upgrade:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Upgrade:",
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 136,
+          "y": 83
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 160,
+          "y": 83
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 253,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:energie>/1000",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:energie>/1000",
+          "x": 232,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpaneleclaire.png",
+          "use1Xscale": false,
+          "name": "guisolarpaneleclaire.png",
+          "x": 254,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fe/T",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Fe/T",
+          "x": 251,
+          "y": 97
+        }
+      }
+    ],
+    "onTick": {
+      "name": "BasiccoalgeneratorWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

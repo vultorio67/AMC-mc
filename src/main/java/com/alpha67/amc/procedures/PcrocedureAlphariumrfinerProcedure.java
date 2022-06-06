@@ -55,7 +55,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe"));
+		}.getValue(world, new BlockPos(x, y, z), "recipe"));
 		if ((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -67,16 +67,16 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == Items.LAVA_BUCKET && new Object() {
+		}.getItemStack(new BlockPos(x, y, z), (int) (0))).getItem() == Items.LAVA_BUCKET && new Object() {
 			public double getValue(IWorld world, BlockPos pos, String tag) {
 				TileEntity tileEntity = world.getTileEntity(pos);
 				if (tileEntity != null)
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "bucketoflava") < 10) {
+		}.getValue(world, new BlockPos(x, y, z), "bucketoflava") < 10) {
 			{
-				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 				if (_ent != null) {
 					final int _sltid = (int) (0);
 					final ItemStack _setstack = new ItemStack(Items.BUCKET);
@@ -89,7 +89,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 			}
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -100,7 +100,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "bucketoflava") + 1));
+					}.getValue(world, new BlockPos(x, y, z), "bucketoflava") + 1));
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -116,7 +116,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == AlphariumoreBlock.block.asItem() && ((new Object() {
+		}.getItemStack(new BlockPos(x, y, z), (int) (1))).getItem() == AlphariumoreBlock.block.asItem() && ((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -127,7 +127,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == AlphariumingotItem.block && new Object() {
+		}.getItemStack(new BlockPos(x, y, z), (int) (3))).getItem() == AlphariumingotItem.block && new Object() {
 			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -138,7 +138,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (3)) <= 64 || new Object() {
+		}.getAmount(world, new BlockPos(x, y, z), (int) (3)) <= 64 || new Object() {
 			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -149,9 +149,9 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (3)) == 0)) {
+		}.getAmount(world, new BlockPos(x, y, z), (int) (3)) == 0)) {
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -161,7 +161,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 			}
 		} else {
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -170,7 +170,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -186,9 +186,9 @@ public class PcrocedureAlphariumrfinerProcedure {
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe")) {
+		}.getValue(world, new BlockPos(x, y, z), "recipe")) {
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -197,7 +197,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -213,7 +213,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") >= 0) {
+		}.getValue(world, new BlockPos(x, y, z), "recipe") >= 0) {
 			if (new Object() {
 				public double getValue(IWorld world, BlockPos pos, String tag) {
 					TileEntity tileEntity = world.getTileEntity(pos);
@@ -221,7 +221,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 						return tileEntity.getTileData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer") >= 10) {
+			}.getValue(world, new BlockPos(x, y, z), "timer") >= 10) {
 				if (new Object() {
 					public double getValue(IWorld world, BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
@@ -229,9 +229,9 @@ public class PcrocedureAlphariumrfinerProcedure {
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "bucketoflava") >= 1) {
+				}.getValue(world, new BlockPos(x, y, z), "bucketoflava") >= 1) {
 					if (!world.isRemote()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						TileEntity _tileEntity = world.getTileEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_tileEntity != null)
@@ -242,12 +242,12 @@ public class PcrocedureAlphariumrfinerProcedure {
 										return tileEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer")) * 9 / 100));
+							}.getValue(world, new BlockPos(x, y, z), "timer")) * (9 / 100)));
 						if (world instanceof World)
 							((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
 					if (!world.isRemote()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						TileEntity _tileEntity = world.getTileEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_tileEntity != null)
@@ -258,13 +258,13 @@ public class PcrocedureAlphariumrfinerProcedure {
 										return tileEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer")));
+							}.getValue(world, new BlockPos(x, y, z), "timer")));
 						if (world instanceof World)
 							((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
 				} else {
 					if (!world.isRemote()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						TileEntity _tileEntity = world.getTileEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_tileEntity != null)
@@ -273,7 +273,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 					}
 					if (!world.isRemote()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						TileEntity _tileEntity = world.getTileEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_tileEntity != null)
@@ -284,7 +284,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 				}
 			} else {
 				if (!world.isRemote()) {
-					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockPos _bp = new BlockPos(x, y, z);
 					TileEntity _tileEntity = world.getTileEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_tileEntity != null)
@@ -300,7 +300,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 						return tileEntity.getTileData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer") >= 100) {
+			}.getValue(world, new BlockPos(x, y, z), "timer") >= 100) {
 				if (new Object() {
 					public double getValue(IWorld world, BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
@@ -308,7 +308,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") == 1) {
+				}.getValue(world, new BlockPos(x, y, z), "recipe") == 1) {
 					if (new Object() {
 						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
@@ -316,9 +316,9 @@ public class PcrocedureAlphariumrfinerProcedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "bucketoflava") >= 1) {
+					}.getValue(world, new BlockPos(x, y, z), "bucketoflava") >= 1) {
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (1);
 								final int _amount = (int) 1;
@@ -332,7 +332,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							}
 						}
 						{
-							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+							TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 							if (_ent != null) {
 								final int _sltid = (int) (3);
 								final ItemStack _setstack = new ItemStack(AlphariumingotItem.block);
@@ -347,7 +347,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 										}
 										return _retval.get();
 									}
-								}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (3)) + 1));
+								}.getAmount(world, new BlockPos(x, y, z), (int) (3)) + 1));
 								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 									if (capability instanceof IItemHandlerModifiable) {
 										((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -356,7 +356,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							}
 						}
 						if (!world.isRemote()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+							BlockPos _bp = new BlockPos(x, y, z);
 							TileEntity _tileEntity = world.getTileEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
@@ -367,14 +367,14 @@ public class PcrocedureAlphariumrfinerProcedure {
 											return tileEntity.getTileData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "bucketoflava")) - 1));
+								}.getValue(world, new BlockPos(x, y, z), "bucketoflava")) - 1));
 							if (world instanceof World)
 								((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 						}
 					}
 				}
 				if (!world.isRemote()) {
-					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockPos _bp = new BlockPos(x, y, z);
 					TileEntity _tileEntity = world.getTileEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_tileEntity != null)
@@ -390,7 +390,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 						return tileEntity.getTileData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") == 0) {
+			}.getValue(world, new BlockPos(x, y, z), "fuel") == 0) {
 				if (new Object() {
 					public double getValue(IWorld world, BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
@@ -398,7 +398,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "bucketoflava") >= 1) {
+				}.getValue(world, new BlockPos(x, y, z), "bucketoflava") >= 1) {
 					if (new Object() {
 						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -410,7 +410,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							}
 							return _retval.get();
 						}
-					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (2)) > 0 && new Object() {
+					}.getAmount(world, new BlockPos(x, y, z), (int) (2)) > 0 && new Object() {
 						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
 							TileEntity _ent = world.getTileEntity(pos);
@@ -421,7 +421,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 							}
 							return _retval.get();
 						}
-					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (1)) != 0) {
+					}.getAmount(world, new BlockPos(x, y, z), (int) (1)) != 0) {
 						if ((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -433,9 +433,9 @@ public class PcrocedureAlphariumrfinerProcedure {
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == IronedCarboneItem.block) {
+						}.getItemStack(new BlockPos(x, y, z), (int) (2))).getItem() == IronedCarboneItem.block) {
 							{
-								TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+								TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 								if (_ent != null) {
 									final int _sltid = (int) (2);
 									final int _amount = (int) 1;
@@ -449,7 +449,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 								}
 							}
 							if (!world.isRemote()) {
-								BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+								BlockPos _bp = new BlockPos(x, y, z);
 								TileEntity _tileEntity = world.getTileEntity(_bp);
 								BlockState _bs = world.getBlockState(_bp);
 								if (_tileEntity != null)
@@ -458,7 +458,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 									((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 							}
 							if (!world.isRemote()) {
-								BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+								BlockPos _bp = new BlockPos(x, y, z);
 								TileEntity _tileEntity = world.getTileEntity(_bp);
 								BlockState _bs = world.getBlockState(_bp);
 								if (_tileEntity != null)
@@ -469,7 +469,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 						}
 					} else {
 						if (!world.isRemote()) {
-							BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+							BlockPos _bp = new BlockPos(x, y, z);
 							TileEntity _tileEntity = world.getTileEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_tileEntity != null)
@@ -488,9 +488,9 @@ public class PcrocedureAlphariumrfinerProcedure {
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") > 0) {
+		}.getValue(world, new BlockPos(x, y, z), "fuel") > 0) {
 			if (!world.isRemote()) {
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
@@ -501,7 +501,7 @@ public class PcrocedureAlphariumrfinerProcedure {
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - 1));
+					}.getValue(world, new BlockPos(x, y, z), "fuel")) - 1));
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
@@ -512,9 +512,9 @@ public class PcrocedureAlphariumrfinerProcedure {
 						return tileEntity.getTileData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "recipe") >= 0) {
+			}.getValue(world, new BlockPos(x, y, z), "recipe") >= 0) {
 				if (!world.isRemote()) {
-					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockPos _bp = new BlockPos(x, y, z);
 					TileEntity _tileEntity = world.getTileEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_tileEntity != null)
@@ -525,14 +525,14 @@ public class PcrocedureAlphariumrfinerProcedure {
 									return tileEntity.getTileData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timer") + 1));
+						}.getValue(world, new BlockPos(x, y, z), "timer") + 1));
 					if (world instanceof World)
 						((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 				}
 			}
 		}
 		if (!world.isRemote()) {
-			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+			BlockPos _bp = new BlockPos(x, y, z);
 			TileEntity _tileEntity = world.getTileEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_tileEntity != null)
@@ -543,14 +543,14 @@ public class PcrocedureAlphariumrfinerProcedure {
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) / (new Object() {
+				}.getValue(world, new BlockPos(x, y, z), "fuel")) / (new Object() {
 					public double getValue(IWorld world, BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
 						if (tileEntity != null)
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "maxFuel"))) * 100));
+				}.getValue(world, new BlockPos(x, y, z), "maxFuel"))) * 100));
 			if (world instanceof World)
 				((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 		}

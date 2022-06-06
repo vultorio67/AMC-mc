@@ -1,23 +1,777 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 1,
     "width": 176,
     "height": 166,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "inventoryOffsetY": -3,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
       {
+        "type": "label",
+        "data": {
+          "text": "Energie stoqu�: <BNBT:integer:energie>FE",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Energie stoqu�: <BNBT:integer:energie>FE",
+          "x": 131,
+          "y": 85
+        }
+      },
+      {
         "type": "image",
         "data": {
-          "image": "solar.png",
+          "image": "guisolarpanelbarelec54.png",
           "use1Xscale": false,
-          "name": "solar.png",
-          "x": 125,
-          "y": 1
+          "displayCondition": {
+            "name": "Procedurebarredechargement54"
+          },
+          "name": "guisolarpanelbarelec54.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec53.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement53"
+          },
+          "name": "guisolarpanelbarelec53.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec52.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement52"
+          },
+          "name": "guisolarpanelbarelec52.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec51.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement51"
+          },
+          "name": "guisolarpanelbarelec51.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec50.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement50"
+          },
+          "name": "guisolarpanelbarelec50.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec49.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement49"
+          },
+          "name": "guisolarpanelbarelec49.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec48.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement48"
+          },
+          "name": "guisolarpanelbarelec48.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec47.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement47"
+          },
+          "name": "guisolarpanelbarelec47.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec46.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement46"
+          },
+          "name": "guisolarpanelbarelec46.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec45.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement45"
+          },
+          "name": "guisolarpanelbarelec45.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec44.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement44"
+          },
+          "name": "guisolarpanelbarelec44.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec43.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement43"
+          },
+          "name": "guisolarpanelbarelec43.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec42.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement42"
+          },
+          "name": "guisolarpanelbarelec42.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec41.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement41"
+          },
+          "name": "guisolarpanelbarelec41.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec40.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement40"
+          },
+          "name": "guisolarpanelbarelec40.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec39.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement39"
+          },
+          "name": "guisolarpanelbarelec39.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec38.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement38"
+          },
+          "name": "guisolarpanelbarelec38.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec37.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement37"
+          },
+          "name": "guisolarpanelbarelec37.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec36.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement36"
+          },
+          "name": "guisolarpanelbarelec36.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec35.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement35"
+          },
+          "name": "guisolarpanelbarelec35.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec34.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement34"
+          },
+          "name": "guisolarpanelbarelec34.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec33.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement33"
+          },
+          "name": "guisolarpanelbarelec33.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec32.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement32"
+          },
+          "name": "guisolarpanelbarelec32.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec31.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement31"
+          },
+          "name": "guisolarpanelbarelec31.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec30.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement30"
+          },
+          "name": "guisolarpanelbarelec30.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec29.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement29"
+          },
+          "name": "guisolarpanelbarelec29.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec28.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement28"
+          },
+          "name": "guisolarpanelbarelec28.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec27.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement27"
+          },
+          "name": "guisolarpanelbarelec27.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec26.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement26"
+          },
+          "name": "guisolarpanelbarelec26.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec25.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement25"
+          },
+          "name": "guisolarpanelbarelec25.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec24.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement24"
+          },
+          "name": "guisolarpanelbarelec24.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec23.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement23"
+          },
+          "name": "guisolarpanelbarelec23.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec22.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement22"
+          },
+          "name": "guisolarpanelbarelec22.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec21.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement21"
+          },
+          "name": "guisolarpanelbarelec21.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement20"
+          },
+          "name": "guisolarpanelbarelec20.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec19.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement19"
+          },
+          "name": "guisolarpanelbarelec19.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec18.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement18"
+          },
+          "name": "guisolarpanelbarelec18.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec17.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement17"
+          },
+          "name": "guisolarpanelbarelec17.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement16"
+          },
+          "name": "guisolarpanelbarelec16.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement15"
+          },
+          "name": "guisolarpanelbarelec15.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement14"
+          },
+          "name": "guisolarpanelbarelec14.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement13"
+          },
+          "name": "guisolarpanelbarelec13.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement12"
+          },
+          "name": "guisolarpanelbarelec12.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement11"
+          },
+          "name": "guisolarpanelbarelec11.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement10"
+          },
+          "name": "guisolarpanelbarelec10.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement9"
+          },
+          "name": "guisolarpanelbarelec9.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement8"
+          },
+          "name": "guisolarpanelbarelec8.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement7"
+          },
+          "name": "guisolarpanelbarelec7.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement6"
+          },
+          "name": "guisolarpanelbarelec6.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement5"
+          },
+          "name": "guisolarpanelbarelec5.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement4"
+          },
+          "name": "guisolarpanelbarelec4.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement3"
+          },
+          "name": "guisolarpanelbarelec3.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement2"
+          },
+          "name": "guisolarpanelbarelec2.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpanelbarelec1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedurebarredechargement1"
+          },
+          "name": "guisolarpanelbarelec1.png",
+          "x": 205,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Energie produite :  <BNBT:integer:energieproduite>FE/T",
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "name": "Energie produite :  <BNBT:integer:energieproduite>FE/T",
+          "x": 131,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpaneleclaire.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedureguilogogenerationelec"
+          },
+          "name": "guisolarpaneleclaire.png",
+          "x": 187,
+          "y": 55
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guisolarpaneleclaire.png",
+          "use1Xscale": false,
+          "name": "guisolarpaneleclaire.png",
+          "x": 274,
+          "y": 92
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sunguisolarpanel.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Procedureguilogogenerationelec"
+          },
+          "name": "sunguisolarpanel.png",
+          "x": 154,
+          "y": 55
         }
       },
       {
@@ -26,15 +780,45 @@
           "inputLimit": {
             "value": ""
           },
+          "color": {
+            "value": -13382656,
+            "falpha": 0.0
+          },
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 275,
-          "y": 83
+          "x": 273,
+          "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gffxbfxcb.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Sinuit"
+          },
+          "name": "gffxbfxcb.png",
+          "x": 147,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hgtrhfghythj.png",
+          "use1Xscale": false,
+          "name": "hgtrhfghythj.png",
+          "x": 150,
+          "y": 50
         }
       }
     ],
+    "onTick": {
+      "name": "GuisolarpanelTier1PendantQueCeGUIEstOuvertParTick"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

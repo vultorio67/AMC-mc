@@ -1,0 +1,84 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 136,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": -13,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 165,
+          "y": 81
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 242,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2022-04-15_21.19.31.png",
+          "use1Xscale": false,
+          "name": "2022-04-15_21.19.31.png",
+          "x": 188,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Portative Charger",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Portative Charger",
+          "x": 168,
+          "y": 58
+        }
+      }
+    ],
+    "onTick": {
+      "name": "PortaivechargerguiPendantQueCeGUIEstOuvertParTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

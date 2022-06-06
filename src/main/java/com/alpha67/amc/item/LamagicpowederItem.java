@@ -3,6 +3,7 @@ package com.alpha67.amc.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -29,6 +30,11 @@ public class LamagicpowederItem extends AmcModElements.ModElement {
 		public ItemCustom() {
 			super(new Item.Properties().group(AlphatabItemGroup.tab).maxDamage(64).isImmuneToFire().rarity(Rarity.COMMON));
 			setRegistryName("lamagicpoweder");
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.EAT;
 		}
 
 		@Override

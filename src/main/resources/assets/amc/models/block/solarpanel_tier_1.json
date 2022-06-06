@@ -5,7 +5,7 @@
     "up": "amc:blocks/solar_basic_0",
     "north": "amc:blocks/solar_basic_1",
     "east": "amc:blocks/machine",
-    "south": "amc:blocks/machine",
+    "south": "amc:blocks/machine_output",
     "west": "amc:blocks/machine",
     "particle": "amc:blocks/machine"
   }

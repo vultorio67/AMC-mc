@@ -42,7 +42,7 @@ public class A4Procedure {
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "timerGui") == 4) {
+		}.getValue(world, new BlockPos(x, y, z), "timerGui") == 4) {
 			return true;
 		}
 		return false;

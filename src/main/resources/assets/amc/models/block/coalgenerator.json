@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amc:blocks/machine",
+    "up": "amc:blocks/machine",
+    "north": "amc:blocks/coal_generator",
+    "east": "amc:blocks/machine",
+    "south": "amc:blocks/machine_output",
+    "west": "amc:blocks/machine",
+    "particle": "amc:blocks/machine"
+  }
+}

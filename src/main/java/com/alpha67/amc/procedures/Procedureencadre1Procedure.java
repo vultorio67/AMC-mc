@@ -42,7 +42,7 @@ public class Procedureencadre1Procedure {
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "selecteur1") == 1) {
+		}.getValue(world, new BlockPos(x, y, z), "selecteur1") == 1) {
 			return false;
 		}
 		return true;

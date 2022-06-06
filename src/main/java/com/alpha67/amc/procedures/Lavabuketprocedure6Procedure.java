@@ -42,7 +42,7 @@ public class Lavabuketprocedure6Procedure {
 					return tileEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "bucketoflava") == 6) {
+		}.getValue(world, new BlockPos(x, y, z), "bucketoflava") == 6) {
 			return true;
 		}
 		return false;

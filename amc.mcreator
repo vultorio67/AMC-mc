@@ -2159,96 +2159,13 @@
       "path": "~/Craft"
     },
     {
-      "name": "Basicwire1",
-      "type": "block",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basicwire_1",
-      "path": "~/galactique /machine/wire/basicwire"
-    },
-    {
-      "name": "Basicwire5",
-      "type": "block",
-      "sortid": 157,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basicwire_5",
-      "path": "~/galactique /machine/wire/basicwire"
-    },
-    {
-      "name": "BasicWire",
-      "type": "block",
-      "sortid": 158,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basic_wire",
-      "path": "~/galactique /machine/wire/basicwire"
-    },
-    {
       "name": "Basicwiretag",
       "type": "tag",
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "basicwiretag",
-      "path": "~/galactique /machine/wire/basicwire"
-    },
-    {
-      "name": "Processbasicwire",
-      "type": "procedure",
-      "sortid": 161,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "processbasicwire",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/galactique /machine/wire/basicwire"
-    },
-    {
-      "name": "Basicwireflate",
-      "type": "block",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basicwireflate",
-      "path": "~/galactique /machine/wire/basicwire"
-    },
-    {
-      "name": "Basicwireflate2",
-      "type": "block",
-      "sortid": 163,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basicwireflate_2",
-      "path": "~/galactique /machine/wire/basicwire"
-    },
-    {
-      "name": "Basicwireflate3",
-      "type": "block",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basicwireflate_3",
-      "path": "~/galactique /machine/wire/basicwire"
+      "path": "~/galactique /machine/wire"
     },
     {
       "name": "SolarpanelTier1",
@@ -2334,6 +2251,2748 @@
       "locked_code": false,
       "registry_name": "guisolarpanel_tier_1",
       "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "Processbreaktop",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processbreaktop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "Processprincipalesolarpaneltier1",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processprincipalesolarpaneltier_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "Procedurebarredechargement54",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_54",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement53",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_53",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement52",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_52",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement51",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_51",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement50",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_50",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement49",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_49",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement48",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_48",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement47",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_47",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement46",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_46",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement45",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_45",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement44",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_44",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement43",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_43",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement42",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_42",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement41",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_41",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement40",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_40",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement39",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_39",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement38",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_38",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement37",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_37",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement36",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_36",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement35",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_35",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement34",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_34",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement33",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_33",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement32",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_32",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement31",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_31",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement30",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_30",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement29",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_29",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement28",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_28",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement27",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_27",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement26",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_26",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement25",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_25",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement24",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_24",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement23",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_23",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement22",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_22",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement21",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_21",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement20",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_20",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement19",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_19",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement18",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_18",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement17",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_17",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement16",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_16",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement15",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_15",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement14",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_14",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement13",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_13",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement12",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement11",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_11",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement10",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement9",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement8",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement7",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement6",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement5",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement4",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement3",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement2",
+      "type": "procedure",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedurebarredechargement1",
+      "type": "procedure",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedurebarredechargement_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
+    },
+    {
+      "name": "Procedureguilogogenerationelec",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedureguilogogenerationelec",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "Processboutonactivervisible",
+      "type": "procedure",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processboutonactivervisible",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/processboutongui"
+    },
+    {
+      "name": "Processboutondesactivervisible",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processboutondesactivervisible",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/processboutongui"
+    },
+    {
+      "name": "Processboutonactiverpresser",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processboutonactiverpresser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/processboutongui"
+    },
+    {
+      "name": "Processboutondesactiverpresser",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processboutondesactiverpresser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/processboutongui"
+    },
+    {
+      "name": "ClefamolletteLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clefamollette_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/cleamollet"
+    },
+    {
+      "name": "Clefamollette",
+      "type": "item",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clefamollette",
+      "path": "~/galactique /machine/cleamollet"
+    },
+    {
+      "name": "Cannotrecevenergie",
+      "type": "tag",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannotrecevenergie",
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "Energiewiretier3",
+      "type": "block",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_3",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier32",
+      "type": "block",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_32",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier33",
+      "type": "block",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_33",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier34",
+      "type": "block",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_34",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier1MiseAjourdutick",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_1_mise_ajourdutick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier1",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_1",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier12",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_12",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier13",
+      "type": "block",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_13",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Energiewiretier14",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_14",
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Clefamimolette",
+      "type": "item",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clefamimolette",
+      "path": "~/galactique /machine/cleamollet"
+    },
+    {
+      "name": "Crafteasteregg",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafteasteregg",
+      "path": "~/galactique /machine/cleamollet"
+    },
+    {
+      "name": "Energiecelltier1",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_1",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier12",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_12",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier13",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_13",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier14",
+      "type": "block",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_14",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier15",
+      "type": "block",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_15",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier16",
+      "type": "block",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_16",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier17",
+      "type": "block",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_17",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier18",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_18",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier19",
+      "type": "block",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_19",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier110",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_110",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier111",
+      "type": "block",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_111",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier112",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_112",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier113",
+      "type": "block",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_113",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier114",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_114",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier115",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_115",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier116",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_116",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiecelltier117",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiecelltier_117",
+      "path": "~/galactique /machine/Simple energie storage"
+    },
+    {
+      "name": "Energiewiretier3MiseAjourdutick",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energiewiretier_3_mise_ajourdutick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/wire"
+    },
+    {
+      "name": "Coalgenerator",
+      "type": "block",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalgenerator",
+      "path": "~/galactique /machine/Coal generator"
+    },
+    {
+      "name": "CoalgeneratorMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalgenerator_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator"
+    },
+    {
+      "name": "Basiccoalgenerator",
+      "type": "gui",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basiccoalgenerator",
+      "path": "~/galactique /machine/Coal generator"
+    },
+    {
+      "name": "Universalbasicupgrade",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universalbasicupgrade",
+      "path": "~/galactique /upgrade/basic"
+    },
+    {
+      "name": "Basicfiretimeupgrade",
+      "type": "item",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicfiretimeupgrade",
+      "path": "~/galactique /upgrade/basic"
+    },
+    {
+      "name": "BasicportabelBaterieQuandLobjetEstFabriquefondu",
+      "type": "procedure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicportabel_baterie_quand_lobjet_est_fabriquefondu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Simpel portabel energie cell"
+    },
+    {
+      "name": "BasicportabelBaterie",
+      "type": "item",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicportabel_baterie",
+      "path": "~/galactique /machine/Simpel portabel energie cell"
+    },
+    {
+      "name": "Basicportablebatteriecraft",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicportablebatteriecraft",
+      "path": "~/galactique /machine/Simpel portabel energie cell"
+    },
+    {
+      "name": "Itencanbecharge",
+      "type": "tag",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itencanbecharge",
+      "path": "~/galactique /machine"
+    },
+    {
+      "name": "BasiccoalgeneratorWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basiccoalgenerator_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator"
+    },
+    {
+      "name": "Portativecharger",
+      "type": "item",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portativecharger",
+      "path": "~/galactique /machine/portativecharger"
+    },
+    {
+      "name": "Portaivechargergui",
+      "type": "gui",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portaivechargergui",
+      "path": "~/galactique /machine/portativecharger"
+    },
+    {
+      "name": "PortaivechargerguiPendantQueCeGUIEstOuvertParTick",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portaivechargergui_pendant_que_ce_gui_est_ouvert_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/portativecharger"
+    },
+    {
+      "name": "Processgui1coalgenerator",
+      "type": "procedure",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_1coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui2coalgenerator",
+      "type": "procedure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_2coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui3coalgenerator",
+      "type": "procedure",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_3coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui4coalgenerator",
+      "type": "procedure",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_4coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui5coalgenerator",
+      "type": "procedure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_5coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui6coalgenerator",
+      "type": "procedure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_6coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui7coalgenerator",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_7coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui8coalgenerator",
+      "type": "procedure",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_8coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui10coalgenerator",
+      "type": "procedure",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_10coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui9coalgenerator",
+      "type": "procedure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_9coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui11coalgenerator",
+      "type": "procedure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_11coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "Processgui12coalgenerator",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processgui_12coalgenerator",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /machine/Coal generator/elementgui"
+    },
+    {
+      "name": "GuisolarpanelTier1PendantQueCeGUIEstOuvertParTick",
+      "type": "procedure",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guisolarpanel_tier_1_pendant_que_ce_gui_est_ouvert_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1"
+    },
+    {
+      "name": "Sinuit",
+      "type": "procedure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sinuit",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/galactique /solar panel Tier 1/element gui"
     }
   ],
   "variable_elements": [],
@@ -2346,12 +5005,23 @@
       "block.amc.fakeblockandesiteface_2": "fake block andesite 2 face",
       "block.amc.alpharium_rafiner_on": "Alpharium Rafiner",
       "item.amc.lamagicpoweder": "La magic poweder",
+      "block.amc.energiecelltier_15": "Energie cell tier 1",
+      "block.amc.energiecelltier_16": "Energie cell tier 1",
       "itemGroup.tabalphatab": "alpha67 tab",
       "block.amc.fusion_machine": "Fusion Machine",
+      "block.amc.energiecelltier_13": "Energie cell tier 1",
+      "block.amc.energiecelltier_14": "Energie cell tier 1",
+      "block.amc.energiewiretier_12": "Energiewiretier 1 2",
+      "block.amc.energiecelltier_19": "Energie cell tier 1",
+      "block.amc.energiewiretier_13": "Energiewiretier 1 2",
+      "block.amc.energiewiretier_14": "Energiewiretier 1 2",
+      "block.amc.energiecelltier_17": "Energie cell tier 1",
       "item.amc.vent": "Vent",
       "item.amc.ruby_armor_chestplate": "Ruby Armor Body",
+      "block.amc.energiecelltier_18": "Energie cell tier 1",
       "item.amc.ruby_pickaxe": "Ruby Pickaxe",
       "block.amc.solarpanel_tier_1": "Solar Panel Tier 1",
+      "block.amc.energiecelltier_12": "Energie cell tier 1",
       "item.amc.metal_ruby_ingot": "Metal Ruby Ingot",
       "block.amc.fakeblockblackconcret_4": "fake block blackconcret 2 face style 2",
       "block.amc.fakeblockblackconcret_2": "fake block blackconcret 2 face",
@@ -2368,19 +5038,26 @@
       "block.amc.blockfakerbasalt_4": "fake block basalt 2 face style 2",
       "block.amc.fakeblockacaciaplank_4face_block_block": "fake block acacia plank 2 face style 2",
       "item.amc.ruby_axe": "Ruby Pickaxe",
-      "block.amc.basicwireflate_3": "Basicwire 5",
-      "block.amc.basicwireflate_2": "Basicwire 5",
       "block.amc.fakeblockblackwool_1": "fake block blackwool 1 face",
       "block.amc.fakeblockblackwool_2": "fake block blackwool 2 face",
+      "item.amc.basicportabel_baterie": "Basic portable Baterie",
       "block.amc.fakeblockblackwool_3": "fake block blackwool 3 face",
+      "item.amc.universalbasicupgrade": "Universal basic Upgrade",
       "block.amc.fakeblockblackwool_4": "fake block blackwool 2 face style 2",
+      "item.amc.clefamimolette": "Clef a mimolette",
       "block.amc.tungsteneore": "Tungsteneore",
+      "block.amc.energiewiretier_32": "Energiewiretier 3 2",
+      "block.amc.energiewiretier_33": "Energiewiretier 3 3",
+      "block.amc.energiewiretier_34": "Energiewiretier 3 4",
       "block.amc.fakeblockblackstone_4": "fake block blackstone 2face style 2",
       "block.amc.fakeblockblackstone_3": "fake block blackstone 3 face",
       "block.amc.fakeblockblackstone_2": "fake block blackstone 2 face",
       "block.amc.fakeblockacaciaplankoneface_block": "fake block acacia plank 1 face",
       "block.amc.fakeblockblackstone_1": "fake block blackstone 1 face",
+      "block.amc.coalgenerator": "Basic coal generator",
+      "item.amc.basicfiretimeupgrade": "Basic fire time Upgrade",
       "block.amc.fakeblockandesite_1": "fake block barel 1 face",
+      "block.amc.energiewiretier_1": "Energie wire tier 1",
       "block.amc.fakeblocbirchlog_4": "fake block buche de boulot 2 face Style 2",
       "block.amc.fakeblocbirchlog_3": "fake block buche de boulot 3 face",
       "block.amc.fakeblockacacialog_4face_block": "fake block acacia log 2 face style 2",
@@ -2396,30 +5073,37 @@
       "block.amc.fakeblocbirchplank_3": "fake block planche de boulot 3 face",
       "block.amc.fakeblocbirchplank_4": "fake block planche de boulot 2 face Style 2",
       "item.amc.alpharium_shovel": "Alpharium Shovel",
+      "block.amc.energiewiretier_3": "Energie wire tier 3",
       "block.amc.rubyore": "Rubyore",
       "item.amc.ruby_armor_boots": "Ruby Armor Boots",
-      "block.amc.basicwire_1": "Basicwire 1",
       "item.amc.tungsteneingot": "Tungstene ingot",
       "block.amc.fakeblockacaciaplank_2face_block_block": "fake block acacia plank 2 face",
       "item.amc.refined_ruby": "Refined Ruby",
-      "block.amc.basicwireflate": "Basicwire 5",
       "block.amc.magicblock": "Magic glass",
       "block.amc.alpharium_rafiner": "Alpharium Rafiner",
-      "block.amc.basicwire_5": "Basicwire 5",
       "block.amc.fakeblockbluewool_1": "fake block blue wool 1face",
       "block.amc.fakeblockbluewool_2": "fake block blue wool 2 face",
       "block.amc.fakeblockbluewool_3": "fake block blue wool 3 face",
       "block.amc.fakeblockbluewool_4": "fake block blue wool 2 face style 2 ",
+      "block.amc.energiecelltier_111": "Energie cell tier 1",
+      "block.amc.energiecelltier_110": "Energie cell tier 1",
+      "block.amc.energiecelltier_113": "Energie cell tier 1",
+      "block.amc.energiecelltier_112": "Energie cell tier 1",
+      "block.amc.energiecelltier_115": "Energie cell tier 1",
+      "block.amc.energiecelltier_114": "Energie cell tier 1",
+      "block.amc.energiecelltier_117": "Energie cell tier 1",
       "item.amc.ironed_carbone": "Ironed Carbone",
+      "block.amc.energiecelltier_116": "Energie cell tier 1",
       "block.amc.fakeblockacacialog_2face": "fake block acacia log 2 face",
       "item.amc.alpharium_hoe": "Alpharium Shovel",
       "block.amc.blockfaker": "Block faker",
       "block.amc.alphariumore": "Alpharium ore",
       "item.amc.alphariumingot": "Alphariumingot",
-      "block.amc.basic_wire": "Basic Wire",
       "item.amc.alpharium_axe": "Alpharium Axe",
       "item.amc.high_energy_fuel": "High Energy Fuel",
       "block.amc.solarpanel_tier_1part_2": "Solarpanel Tier 1part 2",
+      "block.amc.energiecelltier_1": "Energie cell tier 1",
+      "item.amc.portativecharger": "Portative Charger",
       "block.amc.fakeblockacacialog_3face_block": "fake block acacia log 3 face",
       "block.amc.fakeblockacaciaplank_3face_block_block": "fake block acacia plank 3 face",
       "block.amc.fakeblockdirt_1": "fake block dirt 1 face",
@@ -2431,6 +5115,7 @@
       "block.amc.fakeblockcobbelstone_3": "fake block cobbelstone 3 face",
       "block.amc.fakeblockcobbelstone_2": "fake block cobbelstone 2 face",
       "block.amc.fakeblockcobbelstone_1": "fake block cobbelstone 1 face",
+      "item.amc.clefamollette": "Clef a mollette",
       "item.amc.golden_mixed_redstone": "Golden Mixed Redstone",
       "block.amc.tungsten_block": "Tungsten Block",
       "item.amc.ruby_hoe": "Ruby Pickaxe",
@@ -2557,18 +5242,56 @@
             "children": [
               {
                 "name": "wire",
+                "children": []
+              },
+              {
+                "name": "Simple energie storage",
+                "children": []
+              },
+              {
+                "name": "cleamollet",
+                "children": []
+              },
+              {
+                "name": "Coal generator",
                 "children": [
                   {
-                    "name": "basicwire",
+                    "name": "elementgui",
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "Simpel portabel energie cell",
+                "children": []
+              },
+              {
+                "name": "portativecharger",
+                "children": []
               }
             ]
           },
           {
             "name": "solar panel Tier 1",
-            "children": []
+            "children": [
+              {
+                "name": "element gui",
+                "children": []
+              },
+              {
+                "name": "processboutongui",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "upgrade",
+            "children": [
+              {
+                "name": "basic",
+                "children": []
+              }
+            ]
           }
         ]
       }
@@ -2592,5 +5315,5 @@
     "modElementsPackage": "com.alpha67.amc",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200120510
 }

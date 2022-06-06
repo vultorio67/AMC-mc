@@ -1,0 +1,24 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:SolarpanelTier1"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:SolarpanelTier1"
+      },
+      {
+        "value": "CUSTOM:Coalgenerator"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "cannotrecevenergie",
+    "namespace": "forge"
+  }
+}

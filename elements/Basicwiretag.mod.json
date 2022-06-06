@@ -1,30 +1,42 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "tag",
   "definition": {
     "type": "Blocks",
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:Basicwire1"
-      },
-      {
-        "value": "CUSTOM:Basicwire5"
-      },
-      {
-        "value": "CUSTOM:BasicWire"
-      },
-      {
-        "value": "CUSTOM:Basicwireflate"
-      },
-      {
-        "value": "CUSTOM:Basicwireflate2"
-      },
-      {
-        "value": "CUSTOM:Basicwireflate3"
-      },
-      {
         "value": "CUSTOM:SolarpanelTier1"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier3"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier32"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier33"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier34"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier1"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier12"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier13"
+      },
+      {
+        "value": "CUSTOM:Energiewiretier14"
+      },
+      {
+        "value": "CUSTOM:Energiecelltier1"
+      },
+      {
+        "value": "CUSTOM:Coalgenerator"
       }
     ],
     "functions": [],
